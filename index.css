@@ -6,7 +6,7 @@ div.hoggard-background-image {
     flex: 1;
     height: 400px;
     background-color: rgb(186, 82, 72);
-    background-image: url(images/Hoggard-gym.jpg);
+    background-image: url(images_folder/Hoggard-gym.jpg);
     background-size: 100%;
     background-position-y: 650px;
     border-bottom: 5px solid rgb(0, 0, 0);
@@ -59,7 +59,7 @@ a.hoggard-logo:active {
 div.hoggard-logo {
     height: 250px;
     width: 250px;
-    background-image: url(images/hoggard\ logo.png);
+    background-image: url(images_folder/hoggard\ logo.png);
     background-size: cover;
     align-items: center;
     justify-content: center;
@@ -156,7 +156,7 @@ div.chinese-culture {
     height: 200px;
     min-width: 300px;
     background-color: rgba(255, 255, 255, .5);
-    background-image: url(images/Flag-China.png);
+    background-image: url(images_folder/Flag-China.png);
     background-size: cover;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 15px;
@@ -185,7 +185,7 @@ div.japan-culture {
     justify-content: center;
     height: 200px;
     min-width: 300px;
-    background-image: url(images/japan\ flag.png);
+    background-image: url(images_folder/japan\ flag.png);
     background-size: 101%;
     background-position-y: center;
     background-position-x: center;
@@ -226,7 +226,7 @@ div.south-korea-culture {
     justify-content: center;
     height: 200px;
     min-width: 300px;
-    background-image: url(images/south\ korea\ flag.png);
+    background-image: url(images_folder/south\ korea\ flag.png);
     background-size: cover;
     background-position-y: center;
     background-position-x: center;
@@ -258,7 +258,7 @@ div.india-culture {
     justify-content: center;
     height: 200px;
     min-width: 300px;
-    background-image: url(images/india\ flag.png);
+    background-image: url(images_folder/india\ flag.png);
     background-size: cover;
     background-position-y: center;
     background-position-x: center;
