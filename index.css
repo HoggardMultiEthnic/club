@@ -135,30 +135,23 @@ div.cultures-row1 {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    height: 300px;
 }
 
-a.chinese-culture {
-    display: flex;
-    flex: 1;
-    height: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
-    transition: box-shadow 200ms;
-}
-
-a.chinese-culture:hover {
-    box-shadow: 4px 4px 20px rgb(255, 255, 255);
-    transition: box-shadow 200ms;
+button.chinese-collapsible-button {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 div.chinese-culture {
     display: flex;
     flex: 1;
-    align-items: center;
-    justify-content: center;
     height: 200px;
     min-width: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
     background-color: rgba(255, 255, 255, .5);
     background-image: url(images_folder/Flag-China.png);
     background-size: cover;
@@ -168,18 +161,17 @@ div.chinese-culture {
     user-select: none;
 }
 
-a.japan-culture {
-    display: flex;
-    flex: 1;
-    height: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
+div.chinese-culture:hover {
+    box-shadow: 4px 4px 20px rgb(255, 255, 255);
     transition: box-shadow 200ms;
 }
 
-a.japan-culture:hover {
-    box-shadow: 4px 4px 20px rgb(255, 255, 255);
-    transition: box-shadow 200ms;
+button.japan-collapsible-button {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 div.japan-culture {
@@ -189,6 +181,8 @@ div.japan-culture {
     justify-content: center;
     height: 200px;
     min-width: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
     background-image: url(images_folder/japan\ flag.png);
     background-size: 101%;
     background-position-y: center;
@@ -200,27 +194,86 @@ div.japan-culture {
     user-select: none;
 }
 
+div.japan-culture:hover {
+    box-shadow: 4px 4px 20px rgb(255, 255, 255);
+    transition: box-shadow 200ms;
+}
+
+div.cultures-info-row1 {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+#chinese-culture-box {
+    display: none;
+    flex: 1;
+    height: 200px;
+    min-width: 300px;
+    margin-left: 100px;
+    user-select: none;
+}
+
+#chinese-culture-info {
+    display: none;
+    flex: 1;
+    height: 200px;
+    min-width: 300px;
+    margin-top: 7px;
+    padding-left: 20px;
+    padding-right: 15px;
+    font-size: 110%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgb(93, 93, 93);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    user-select: none;
+}
+
+#japan-culture-box {
+    display: none;
+    flex: 1;
+    height: 200px;
+    min-width: 300px;
+    margin-right: 100px;
+    user-select: none;
+}
+
+#japan-culture-info {
+    display: none;
+    flex: 1;
+    height: 200px;
+    min-width: 300px;
+    margin-top: 7px;
+    padding-left: 20px;
+    padding-right: 15px;
+    font-size: 110%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgb(93, 93, 93);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    user-select: none;
+}
+
 div.cultures-row2 {
     display: flex;
     flex: 1;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
-    height: 300px;
+    margin-top: 100px;
 }
 
-a.south-korea-culture {
-    display: flex;
-    flex: 1;
-    height: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
-    transition: box-shadow 200ms;
-}
-
-a.south-korea-culture:hover {
-    box-shadow: 4px 4px 20px rgb(255, 255, 255);
-    transition: box-shadow 200ms;
+button.south-korea-collapsible-button {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 div.south-korea-culture {
@@ -230,6 +283,8 @@ div.south-korea-culture {
     justify-content: center;
     height: 200px;
     min-width: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
     background-image: url(images_folder/south\ korea\ flag.png);
     background-size: cover;
     background-position-y: center;
@@ -241,18 +296,17 @@ div.south-korea-culture {
     user-select: none;
 }
 
-a.india-culture {
-    display: flex;
-    flex: 1;
-    height: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
+div.south-korea-culture:hover {
+    box-shadow: 4px 4px 20px rgb(255, 255, 255);
     transition: box-shadow 200ms;
 }
 
-a.india-culture:hover {
-    box-shadow: 4px 4px 20px rgb(255, 255, 255);
-    transition: box-shadow 200ms;
+button.india-collapsible-button {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 div.india-culture {
@@ -262,6 +316,8 @@ div.india-culture {
     justify-content: center;
     height: 200px;
     min-width: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
     background-image: url(images_folder/india\ flag.png);
     background-size: cover;
     background-position-y: center;
@@ -270,6 +326,65 @@ div.india-culture {
     border: 2px solid rgb(255, 255, 255);
     border-radius: 15px;
     box-shadow: 4px 4px 20px rgb(0, 0, 0);
+    user-select: none;
+}
+
+div.india-culture:hover {
+    box-shadow: 4px 4px 20px rgb(255, 255, 255);
+    transition: box-shadow 200ms;
+}
+
+#south-korea-culture-box {
+    display: none;
+    flex: 1;
+    height: 200px;
+    min-width: 300px;
+    margin-left: 100px;
+    user-select: none;
+}
+
+#south-korea-culture-info {
+    display: none;
+    flex: 1;
+    height: 200px;
+    min-width: 300px;
+    margin-top: 7px;
+    padding-left: 20px;
+    padding-right: 15px;
+    font-size: 110%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgb(93, 93, 93);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    user-select: none;
+}
+
+#india-culture-box {
+    display: none;
+    flex: 1;
+    height: 200px;
+    min-width: 300px;
+    margin-right: 100px;
+    user-select: none;
+}
+
+#india-culture-info {
+    display: none;
+    flex: 1;
+    height: 200px;
+    min-width: 300px;
+    margin-top: 7px;
+    padding-left: 20px;
+    padding-right: 15px;
+    font-size: 110%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgb(93, 93, 93);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
     user-select: none;
 }
 
