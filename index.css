@@ -221,7 +221,6 @@ div.cultures-info-row1 {
 #chinese-culture-box {
     display: none;
     flex: 1;
-    min-height: 200px;
     margin-left: 100px;
     user-select: none;
 }
@@ -245,7 +244,6 @@ div.cultures-info-row1 {
 #japan-culture-box {
     display: none;
     flex: 1;
-    min-height: 200px;
     margin-right: 100px;
     user-select: none;
 }
@@ -343,7 +341,6 @@ div.india-culture:hover {
 #south-korea-culture-box {
     display: none;
     flex: 1;
-    min-height: 200px;
     margin-left: 100px;
     user-select: none;
 }
@@ -367,7 +364,6 @@ div.india-culture:hover {
 #india-culture-box {
     display: none;
     flex: 1;
-    min-height: 200px;
     margin-right: 100px;
     user-select: none;
 }
