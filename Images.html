@@ -12,34 +12,78 @@
         <link rel="icon" href="images_folder/hoggard logo.png">
     </head>
     <body>
-        <div class="Upper-navbar">
-
-            <div class="Upper-navabr-logo">
-
-                <a class="Multi-Ethnic" href="./">
-                    Multi-Ethnic Club
-                </a>
-                <img class="hoggard-logo-upper-navbar" src="images_folder/hoggard logo.png">
+        <div class="Upper-navbar" id="upper-navbar-main">
+            <div class="Upper-navbar-logo-container">
+            <div class="Upper-navbar-logo">
+              <a class="Multi-Ethnic" href="./">
+              Multi-Ethnic Club
+              </a>
+              <img class="hoggard-logo-upper-navbar" src="images_folder/hoggard logo.png">
             </div>
-
+            </div>
             <div class="Upper-navbar-buttons">
-                <a class="images" href="./Images">
-                    Images
-                </a>
-                <a class="contact" href="./Contact">
-                    Contact
-                </a>
-                <a class="register" href="./Register">
-                    Register
-                </a>
-                <a class="about" href="./About">
-                    About
-                </a>
-                <a class="schedule" href="./Schedule">
-                    Schedule
-                </a>
+              <a class="images" href="./Images">
+              Images
+              </a>
+              <a class="contact" href="./Contact">
+              Contact
+              </a>
+              <a class="register" href="./Register">
+              Register
+              </a>
+              <a class="about" href="./About">
+              About
+              </a>
+              <a class="schedule" href="./Schedule">
+              Schedule
+              </a>
             </div>
-        </div>
-        
+      
+            <div class="navbar-menu-button-containter">
+            <div class="navbar-menu-button">
+              <button class="menu-button"></button>
+            </div>
+            </div>
+            <div id="Upper-navbar-buttons-menu-container-override">
+            <div id="Upper-navbar-buttons-menu-container">
+            <div id="Upper-navbar-buttons-menu">
+              <div class="menu-images-container">
+              <a class="menu-images" href="./Images">Images</a>
+              </div>
+              <div class="menu-contact-container">
+                <a class="menu-contact" href="./Contact">Contact</a>
+              </div>
+              <div class="menu-register-container">
+                <a class="menu-register" href="./Register">Register</a>
+              </div>
+              <div class="menu-about-container">
+                <a class="menu-about" href="./About">About</a>
+              </div>
+              <div class="menu-schedule-container">
+                <a class="menu-schedule" href="./Schedule">Schedule</a>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+          <script>
+            var navbarMenuButton = document.getElementsByClassName("menu-button");
+            var x;
+            for (x = 0; x < navbarMenuButton.length; x++) {
+              navbarMenuButton[x].addEventListener("click", function() {
+                this.classList.toggle("active");
+                let menuCollapsible = document.getElementById("Upper-navbar-buttons-menu");
+                if (menuCollapsible.style.display === "flex") {
+                  menuCollapsible.style.display = "none";
+                  document.getElementById("Upper-navbar-buttons-menu-container").style.display = "none";
+                  document.getElementById("upper-navbar-main").style.paddingBottom = "20px";
+                } else {
+                  document.getElementById("upper-navbar-main").style.paddingBottom = "0px";
+                  document.getElementById("Upper-navbar-buttons-menu-container").style.display = "flex";
+                  menuCollapsible.style.display = "flex";
+                }
+              });
+            }
+        </script>
     </body>
 </html>
