@@ -29,12 +29,25 @@ div.Ethnic-h1 {
     justify-content: center;
 }
 
-a.hoggard-logo {
+div.hoggard-logo-section {
     display: block;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.hoggard-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.hoggard-logo-link {
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 8px rgb(0, 0, 0);
     cursor: pointer;
-    opacity: 1;
     font-size: 30px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -42,11 +55,9 @@ a.hoggard-logo {
     user-select: none;
     transition: opacity 100ms;
     transition: border-bottom 200ms;
-    margin-left: 30px;
-    margin-right: 30px;
 }
 
-a.hoggard-logo:hover {
+a.hoggard-logo-link:hover {
     opacity: .85;
     color: rgb(0, 221, 255);
     border-radius: 5px;
@@ -55,7 +66,7 @@ a.hoggard-logo:hover {
     transition: color 200ms;
 }
 
-a.hoggard-logo:active {
+a.hoggard-logo-link:active {
     opacity: .75;
     transition: opacity 100ms;
 }
@@ -65,8 +76,6 @@ div.hoggard-logo {
     width: 250px;
     background-image: url(images_folder/hoggard\ logo.png);
     background-size: cover;
-    align-items: center;
-    justify-content: center;
 }
 
 h1.Multi {
@@ -92,7 +101,9 @@ h1.Ethnic {
 div.summary-page {
     display: flex;
     flex: 1;
-    height: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
     align-items: center;
     justify-content: center;
     border-bottom: 4px solid rgb(0, 0, 0);
@@ -108,8 +119,8 @@ a.summary {
 }
 
 div.culture-page {
-    display: block;
-    height: 900px;
+    display: inline-block;
+    width: 100%;
     background: linear-gradient(320deg, rgb(227, 52, 37), rgb(175, 45, 33), rgb(198, 81, 71));
 }
 
@@ -155,6 +166,7 @@ div.chinese-culture {
     background-color: rgba(255, 255, 255, .5);
     background-image: url(images_folder/Flag-China.png);
     background-size: cover;
+    background-position-y: -10px;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 15px;
     box-shadow: 4px 4px 20px rgb(0, 0, 0);
@@ -209,8 +221,7 @@ div.cultures-info-row1 {
 #chinese-culture-box {
     display: none;
     flex: 1;
-    height: 200px;
-    min-width: 300px;
+    min-height: 200px;
     margin-left: 100px;
     user-select: none;
 }
@@ -218,8 +229,6 @@ div.cultures-info-row1 {
 #chinese-culture-info {
     display: none;
     flex: 1;
-    height: 200px;
-    min-width: 300px;
     margin-top: 7px;
     padding-left: 20px;
     padding-right: 15px;
@@ -236,8 +245,7 @@ div.cultures-info-row1 {
 #japan-culture-box {
     display: none;
     flex: 1;
-    height: 200px;
-    min-width: 300px;
+    min-height: 200px;
     margin-right: 100px;
     user-select: none;
 }
@@ -245,8 +253,6 @@ div.cultures-info-row1 {
 #japan-culture-info {
     display: none;
     flex: 1;
-    height: 200px;
-    min-width: 300px;
     margin-top: 7px;
     padding-left: 20px;
     padding-right: 15px;
@@ -337,8 +343,7 @@ div.india-culture:hover {
 #south-korea-culture-box {
     display: none;
     flex: 1;
-    height: 200px;
-    min-width: 300px;
+    min-height: 200px;
     margin-left: 100px;
     user-select: none;
 }
@@ -346,8 +351,6 @@ div.india-culture:hover {
 #south-korea-culture-info {
     display: none;
     flex: 1;
-    height: 200px;
-    min-width: 300px;
     margin-top: 7px;
     padding-left: 20px;
     padding-right: 15px;
@@ -364,8 +367,7 @@ div.india-culture:hover {
 #india-culture-box {
     display: none;
     flex: 1;
-    height: 200px;
-    min-width: 300px;
+    min-height: 200px;
     margin-right: 100px;
     user-select: none;
 }
@@ -373,8 +375,6 @@ div.india-culture:hover {
 #india-culture-info {
     display: none;
     flex: 1;
-    height: 200px;
-    min-width: 300px;
     margin-top: 7px;
     padding-left: 20px;
     padding-right: 15px;
@@ -388,9 +388,18 @@ div.india-culture:hover {
     user-select: none;
 }
 
-@media screen and (max-width: 1080px){
-    a.summary {
-        text-align: center;
+div.footer {
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1410px){
+    img.hoggard-logo-upper-navbar {
+        height: 80px;
+        width: 80px;
+    }
+
+    div.Upper-navbar {
+        padding: 10px;
     }
 }
 
@@ -403,11 +412,11 @@ div.india-culture:hover {
     }
 
     div.hoggard-logo {
-        height: 180px;
-        width: 180px;
+        height: 150px;
+        width: 150px;
     }
 
-    a.hoggard-logo {
+    a.hoggard-logo-link {
         font-size: 25px;
     }
 
@@ -418,19 +427,55 @@ div.india-culture:hover {
     h1.Ethnic {
         font-size: 70px;
     }
-}
 
-@media screen and (max-width: 900px) {
-    div.culture-page {
-        height: 700px;
+    div.chinese-culture {
+        background-position-y: unset;
     }
 
-    div.cultures-row1 {
-        height: 200px;
+    #chinese-culture-info {
+        font-size: 90%;
+    }
+
+    #japan-culture-info {
+        font-size: 90%;
+    }
+
+    #south-korea-culture-info {
+        font-size: 90%;
+    }
+
+    #india-culture-info {
+        font-size: 90%;
     }
 
     div.cultures-row2 {
-        height: 200px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #chinese-culture-box {
+        margin-left: 30px;
+    }
+
+    #japan-culture-box {
+        margin-right: 30px;
+    }
+
+    #south-korea-culture-box {
+        margin-left: 30px;
+    }
+
+    #india-culture-box {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    div.hoggard-logo {
+        height: 140px;
+        width: 140px;
     }
 
     div.chinese-culture {
@@ -438,21 +483,9 @@ div.india-culture:hover {
         min-width: 250px;
     }
 
-    a.chinese-culture {
-        margin-left: 50px;
-        margin-right: 50px;
-        height: auto;
-    }
-
     div.japan-culture {
         height: 150px;
         min-width: 250px;
-    }
-
-    a.japan-culture {
-        margin-left: 50px;
-        margin-right: 50px;
-        height: auto;
     }
 
     div.south-korea-culture {
@@ -460,28 +493,29 @@ div.india-culture:hover {
         min-width: 250px;
     }
 
-    a.south-korea-culture {
-        margin-left: 50px;
-        margin-right: 50px;
-        height: auto;
-    }
-
     div.india-culture {
         height: 150px;
         min-width: 250px;
     }
 
-    a.india-culture {
-        margin-left: 50px;
-        margin-right: 50px;
-        height: auto;
+    #chinese-culture-info {
+        font-size: 85%;
+    }
+
+    #japan-culture-info {
+        font-size: 85%;
+    }
+
+    #south-korea-culture-info {
+        font-size: 85%;
+    }
+
+    #india-culture-info {
+        font-size: 85%;
     }
 }
 
 @media screen and (max-width: 800px) {
-    div.culture-page {
-        height: 670px;
-    }
 
     div.hoggard-background-image {
         justify-content: center;
@@ -495,7 +529,7 @@ div.india-culture:hover {
         width: 140px;
     }
 
-    a.hoggard-logo {
+    a.hoggard-logo-link {
         font-size: 20px;
     }
 
@@ -508,17 +542,10 @@ div.india-culture:hover {
     }
 }
 
-@media screen and (max-width: 670px) {
-    div.culture-page {
-        height: 560px;
-    }
-
-    div.cultures-row1 {
-        height: 140px;
-    }
-
-    div.cultures-row2 {
-        height: 140px;
+@media screen and (max-width: 750px) {
+    img.hoggard-logo-upper-navbar {
+        height: 60px;
+        width: 60px;
     }
 
     div.hoggard-logo {
@@ -526,7 +553,7 @@ div.india-culture:hover {
         width: 100px;
     }
 
-    a.hoggard-logo {
+    a.hoggard-logo-link {
         font-size: 15px;
     }
 
@@ -538,15 +565,13 @@ div.india-culture:hover {
         font-size: 35px;
     }
 
+    div.cultures-row2 {
+        margin-top: 50px;
+    }
+
     div.chinese-culture {
         height: 100px;
         min-width: 160px;
-    }
-
-    a.chinese-culture {
-        margin-left: 30px;
-        margin-right: 15px;
-        height: auto;
     }
 
     div.japan-culture {
@@ -554,21 +579,9 @@ div.india-culture:hover {
         min-width: 160px;
     }
 
-    a.japan-culture {
-        margin-left: 15px;
-        margin-right: 30px;
-        height: auto;
-    }
-
     div.south-korea-culture {
         height: 100px;
         min-width: 160px;
-    }
-
-    a.south-korea-culture {
-        margin-left: 30px;
-        margin-right: 15px;
-        height: auto;
     }
 
     div.india-culture {
@@ -576,81 +589,136 @@ div.india-culture:hover {
         min-width: 160px;
     }
 
-    a.india-culture {
-        margin-left: 15px;
-        margin-right: 30px;
-        height: auto;
+    #chinese-culture-info {
+        font-size: 80%;
+    }
+
+    #japan-culture-info {
+        font-size: 80%;
+    }
+
+    #south-korea-culture-info {
+        font-size: 80%;
+    }
+
+    #india-culture-info {
+        font-size: 80%;
     }
 }
 
-@media screen and (max-width: 460px) {
-    div.culture-page {
-        height: 400px;
-    }
-
+@media screen and (max-width: 560px) {
     div.hoggard-logo {
         height: 60px;
         width: 60px;
     }
 
-    a.hoggard-logo {
+    a.hoggard-logo-link {
         font-size: 15px;
     }
 
-    a.hoggard-logo {
-        font-size: 9px;
+    a.summary {
+        font-size: 100%;
     }
 
-    h1.Multi {
-        font-size: 20px;
+    a.cultures {
+        font-size: 30px;
     }
 
-    h1.Ethnic {
-        font-size: 20px;
+    div.cultures-row2 {
+        margin-top: 30px;
     }
 
     div.chinese-culture {
-        height: 60px;
+        height: 80px;
         min-width: 100px;
+        margin-right: 50px;
+        margin-left: 40px;
     }
 
-    a.chinese-culture {
-        margin-left: 30px;
-        margin-right: 15px;
-        height: auto;
+    div.japan-culture {
+        height: 80px;
+        min-width: 100px;
+        margin-left: 50px;
+        margin-right: 40px;
+    }
+
+    div.south-korea-culture {
+        height: 80px;
+        min-width: 100px;
+        margin-right: 50px;
+        margin-left: 40px;
+    }
+
+    div.india-culture {
+        height: 80px;
+        min-width: 100px;
+        margin-left: 50px;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    a.hoggard-logo-link {
+        font-size: 11px;
+    }
+
+    h1.Multi {
+        font-size: 28px;
+    }
+
+    h1.Ethnic {
+        font-size: 28px;
+    }
+
+    #chinese-culture-info {
+        font-size: 65%;
+    }
+
+    #japan-culture-info {
+        font-size: 65%;
+    }
+
+    #south-korea-culture-info {
+        font-size: 65%;
+    }
+
+    #india-culture-info {
+        font-size: 65%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    div.chinese-culture {
+        height: 60px;
     }
 
     div.japan-culture {
         height: 60px;
-        min-width: 100px;
-    }
-
-    a.japan-culture {
-        margin-left: 15px;
-        margin-right: 30px;
-        height: auto;
     }
 
     div.south-korea-culture {
         height: 60px;
-        min-width: 100px;
-    }
-
-    a.south-korea-culture {
-        margin-left: 30px;
-        margin-right: 15px;
-        height: auto;
     }
 
     div.india-culture {
         height: 60px;
-        min-width: 100px;
     }
 
-    a.india-culture {
-        margin-left: 15px;
-        margin-right: 30px;
-        height: auto;
+    #chinese-culture-info {
+        font-size: 50%;
+    }
+
+    #japan-culture-info {
+        font-size: 50%;
+    }
+
+    #south-korea-culture-info {
+        font-size: 50%;
+    }
+
+    #india-culture-info {
+        font-size: 50%;
     }
 }
 
