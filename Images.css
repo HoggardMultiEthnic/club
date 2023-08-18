@@ -136,7 +136,6 @@ div.image-mt-yoshino {
 
 div.images-row1-container4 {
     display: flex;
-    flex-wrap: wrap;
     flex: 1;
 }
 
@@ -208,6 +207,12 @@ div.image-shanghai {
 
 div.footer {
     height: 30px;
+}
+
+@media screen and (max-width: 1437px) {
+    div.images-row1-container4 {
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width: 670px) {
