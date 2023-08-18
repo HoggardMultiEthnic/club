@@ -5,266 +5,303 @@ html {
     background-color: rgb(68, 68, 68);
 }
 
-div.hoggard-background-image {
+body {
+    user-select: none;
+}
+
+div.images-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.images-row1-container1 {
     display: flex;
     flex: 1;
-    height: 400px;
-    background-color: rgb(186, 82, 72);
-    background-image: url(images/Hoggard-gym.jpg);
-    background-size: 100%;
-    background-position-y: 650px;
-    border-bottom: 5px solid rgb(0, 0, 0);
+    flex-wrap: wrap;
+}
+
+#image-wall-of-china-container {
+    display: flex;
+    flex: 1;
+    margin-top: 40px;
+    margin-left: 15px;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
-div.Multi-h1 {
+div.image-wall-of-china {
+    display: block;
+    background-image: url(images_folder/images-wall-of-china.jpg);
+    background-size: 100%;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 450px;
+}
+
+#image-golden-temple-container {
     display: flex;
     flex: 1;
-    justify-content: center;
+    margin-top: 40px;
+    margin-left: 25px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-div.Ethnic-h1 {
+div.image-golden-temple {
+    display: block;
+    background-image: url(images_folder/images-golden-temple-india.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 500px;
+    background-position-x: right;
+}
+
+div.images-row1-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+#image-taj-mahal-container {
     display: flex;
     flex: 1;
-    justify-content: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-a.hoggard-logo {
-    color: rgb(255, 255, 255);
-    text-shadow: 3px 3px 8px rgb(0, 0, 0);
-    cursor: pointer;
-    opacity: 1;
-    font-size: 30px;
+div.image-taj-mahal {
+    display: block;
+    background-image: url(images_folder/images-taj-mahal-india.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 500px;
+}
+
+#image-seoul-container {
+    display: flex;
+    flex: 1;
+    margin-left: 35px;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-seoul {
+    display: block;
+    background-image: url(images_folder/images-seoul-south-korea.webp);
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 500px;
+}
+
+div.images-row1-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+#image-mt-yoshino-container {
+    display: flex;
+    flex: 1;
+    margin-left: 15px;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-mt-yoshino {
+    display: block;
+    background-image: url(images_folder/images-mt-yoshino.webp);
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 500px;
+    width: 350px;
+    background-position-x: right;
+}
+
+div.images-row1-container4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+#image-nachi-shrine-container {
+    display: flex;
+    flex: 1;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-nachi-shrine {
+    display: block;
+    background-image: url(images_folder/images-nachi-shrine-japan.webp);
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 400px;
+    width: 375px;
+}
+
+#image-gyeongju-south-korea-container {
+    display: flex;
+    flex: 1;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-gyeongju-south-korea {
+    display: block;
+    background-image: url(images_folder/images-gyeongju-south-korea.webp);
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 400px;
+}
+
+#image-shanghai-container {
+    display: flex;
+    flex: 1;
+    margin-right: 15px;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-shanghai {
+    display: block;
+    background-image: url(images_folder/images-shanghai-china.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 450px;
+}
+
+.captions {
+    display: block;
+    color: white;
+    font-size: 20px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
-    user-select: none;
-    transition: opacity 100ms;
-    transition: border-bottom 200ms;
-    margin-left: 30px;
-    margin-right: 30px;
 }
 
-a.hoggard-logo:hover {
-    opacity: .85;
-    color: rgb(0, 221, 255);
-    border-radius: 5px;
-    transition: opacity 100ms;
-    transition: border-bottom 200ms;
-    transition: color 200ms;
+div.footer {
+    height: 30px;
 }
 
-a.hoggard-logo:active {
-    opacity: .75;
-    transition: opacity 100ms;
-}
+@media screen and (max-width: 670px) {
 
-div.hoggard-logo {
-    height: 200px;
-    width: 200px;
-    background-image: url(images/hoggard\ logo.png);
-    background-size: cover;
-    align-items: center;
-    justify-content: center;
-}
+    #image-wall-of-china-container {
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 
-h1.Multi {
-    font-size: 100px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    opacity: .85;
-    color: rgb(255, 255, 255);
-    text-shadow: 4px 4px 10px rgb(0, 0, 0);
-    user-select: none;
-}
+    #image-golden-temple-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 
-h1.Ethnic {
-    font-size: 100px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    opacity: .85;
-    color: rgb(255, 255, 255);
-    text-shadow: 4px 4px 10px rgb(0, 0, 0);
-    user-select: none;
-}
+    #image-taj-mahal-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 
-div.summary-page {
-    display: flex;
-    flex: 1;
-    height: 200px;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 4px solid rgb(0, 0, 0);
-    background-color: rgb(68, 68, 68);
-    color: rgb(255, 255, 255);
-}
+    #image-seoul-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 
-a.summary {
-    font-size: 140%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
-    user-select: none;
-}
+    #image-mt-yoshino-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 
-div.culture-page {
-    display: block;
-    height: 900px;
-    background: linear-gradient(320deg, rgb(227, 52, 37), rgb(175, 45, 33), rgb(198, 81, 71));
-}
+    #image-nachi-shrine-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 
-div.cultures-heading {
-    display: flex;
-    height: 150px;
-    align-items: center;
-    justify-content: center;
-}
+    #image-gyeongju-south-korea-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 
-a.cultures {
-    font-size: 40px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 255, 255);
-    text-shadow: 4px 4px 10px rgb(0, 0, 0);
-    user-select: none;
-}
+    #image-shanghai-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+ 
+    div.image-wall-of-china {
+        height: 160px;
+        width: 280px;
+    }
 
-div.cultures-row1 {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
+    div.image-golden-temple {
+        height: 160px;
+        width: 280px;
+    }
 
-a.chinese-culture {
-    display: flex;
-    flex: 1;
-    height: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
-    transition: box-shadow 200ms;
-}
+    div.image-taj-mahal {
+        height: 160px;
+        width: 280px;
+    }
 
-a.chinese-culture:hover {
-    box-shadow: 4px 4px 20px rgb(255, 255, 255);
-    transition: box-shadow 200ms;
-}
+    div.image-seoul {
+        height: 160px;
+        width: 280px;
+    }
 
-div.chinese-culture {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-    background-color: rgba(255, 255, 255, .5);
-    background-image: url(images/Flag-China.png);
-    background-size: cover;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 15px;
-    box-shadow: 4px 4px 20px rgb(0, 0, 0);
-    user-select: none;
-}
+    div.image-mt-yoshino {
+        height: 400px;
+        width: 280px;
+    }
 
-a.japan-culture {
-    display: flex;
-    flex: 1;
-    height: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
-    transition: box-shadow 200ms;
-}
+    div.image-nachi-shrine {
+        height: 400px;
+        width: 280px;
+        background-position: center;
+    }
 
-a.japan-culture:hover {
-    box-shadow: 4px 4px 20px rgb(255, 255, 255);
-    transition: box-shadow 200ms;
-}
+    div.image-gyeongju-south-korea {
+        height: 350px;
+        width: 280px;
+    }
 
-div.japan-culture {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-    background-image: url(images/japan\ flag.png);
-    background-size: 101%;
-    background-position-y: center;
-    background-position-x: center;
-    background-color: rgba(255, 255, 255, .5);
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 15px;
-    box-shadow: 4px 4px 20px rgb(0, 0, 0);
-    user-select: none;
-}
+    div.image-shanghai {
+        height: 160px;
+        width: 280px;
+    }
 
-div.cultures-row2 {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
+    #nachi-shrine-caption {
+        font-size: 18px;
+    }
 }
-
-a.south-korea-culture {
-    display: flex;
-    flex: 1;
-    height: 200px;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    transition: box-shadow 200ms;
-}
-
-a.south-korea-culture:hover {
-    box-shadow: 4px 4px 20px rgb(255, 255, 255);
-    transition: box-shadow 200ms;
-}
-
-div.south-korea-culture {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-    background-image: url(images/south\ korea\ flag.png);
-    background-size: cover;
-    background-position-y: center;
-    background-position-x: center;
-    background-color: rgba(255, 255, 255, .5);
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 15px;
-    box-shadow: 4px 4px 20px rgb(0, 0, 0);
-    user-select: none;
-}
-
-a.india-culture {
-    display: flex;
-    flex: 1;
-    height: 200px;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    transition: box-shadow 200ms;
-}
-
-a.india-culture:hover {
-    box-shadow: 4px 4px 20px rgb(255, 255, 255);
-    transition: box-shadow 200ms;
-}
-
-div.india-culture {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-    background-image: url(images/india\ flag.png);
-    background-size: cover;
-    background-position-y: center;
-    background-position-x: center;
-    background-color: rgba(255, 255, 255, .5);
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 15px;
-    box-shadow: 4px 4px 20px rgb(0, 0, 0);
-    user-select: none;
-}
-
