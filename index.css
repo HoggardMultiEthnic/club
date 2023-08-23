@@ -11,8 +11,9 @@ div.hoggard-background-image {
     height: 400px;
     background-color: rgb(186, 82, 72);
     background-image: url(images_folder/Hoggard-gym.jpg);
-    background-size: 100%;
-    background-position-y: 650px;
+    background-size: 101%;
+    background-position-y: 670px;
+    background-position-x: -2px;
     border-bottom: 5px solid rgb(0, 0, 0);
     align-items: center;
 }
@@ -48,7 +49,7 @@ a.hoggard-logo-link {
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 8px rgb(0, 0, 0);
     cursor: pointer;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
@@ -72,8 +73,8 @@ a.hoggard-logo-link:active {
 }
 
 div.hoggard-logo {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     background-image: url(images_folder/hoggard\ logo.png);
     background-size: cover;
 }
@@ -113,8 +114,8 @@ div.summary-page {
 
 a.summary {
     font-size: 140%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     user-select: none;
 }
 
@@ -133,8 +134,8 @@ div.cultures-heading {
 
 a.cultures {
     font-size: 40px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     color: rgb(255, 255, 255);
     text-shadow: 4px 4px 10px rgb(0, 0, 0);
     user-select: none;
@@ -232,8 +233,8 @@ div.cultures-info-row1 {
     padding-left: 20px;
     padding-right: 15px;
     font-size: 110%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     background-color: rgb(93, 93, 93);
     color: white;
     border-radius: 5px;
@@ -255,8 +256,8 @@ div.cultures-info-row1 {
     padding-left: 20px;
     padding-right: 15px;
     font-size: 110%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     background-color: rgb(93, 93, 93);
     color: white;
     border-radius: 5px;
@@ -352,8 +353,8 @@ div.india-culture:hover {
     padding-left: 20px;
     padding-right: 15px;
     font-size: 110%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     background-color: rgb(93, 93, 93);
     color: white;
     border-radius: 5px;
@@ -375,8 +376,8 @@ div.india-culture:hover {
     padding-left: 20px;
     padding-right: 15px;
     font-size: 110%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     background-color: rgb(93, 93, 93);
     color: white;
     border-radius: 5px;
@@ -530,8 +531,8 @@ div.footer {
 @media screen and (max-width: 750px) {
 
     div.hoggard-logo {
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 80px;
     }
 
     a.hoggard-logo-link {
@@ -539,11 +540,11 @@ div.footer {
     }
 
     h1.Multi {
-        font-size: 35px;
+        font-size: 40px;
     }
 
     h1.Ethnic {
-        font-size: 35px;
+        font-size: 40px;
     }
 
     div.cultures-row2 {
@@ -589,8 +590,8 @@ div.footer {
 
 @media screen and (max-width: 560px) {
     div.hoggard-logo {
-        height: 60px;
-        width: 60px;
+        height: 70px;
+        width: 70px;
     }
 
     a.hoggard-logo-link {
@@ -639,6 +640,11 @@ div.footer {
 }
 
 @media screen and (max-width: 480px) {
+
+    div.hoggard-logo {
+        height: 60px;
+        width: 60px;
+    }
 
     a.hoggard-logo-link {
         font-size: 11px;

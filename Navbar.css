@@ -246,15 +246,15 @@ a.menu-schedule:active {
 }
 
 a.Multi-Ethnic {
-    color: rgb(239, 162, 177);
+    color: rgb(247, 247, 247);
     cursor: pointer;
     opacity: 1;
     text-align: center;
-    font-size: 60px;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     text-decoration: none;
-    text-shadow: 3px 2px 0px rgb(255, 255, 255);
+    text-shadow: 3px 2px 7px rgb(0, 0, 0);
     transition: opacity 100ms;
     user-select: none;
 }
@@ -444,7 +444,7 @@ a.schedule:active {
     transition: opacity 100ms;
 }
 
-@media screen and (max-width: 1410px) {
+@media screen and (max-width: 1480px) {
     div.Upper-navbar {
         flex-direction: column;
         align-items: center;
