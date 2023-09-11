@@ -5,6 +5,35 @@ html {
     background-color: rgb(68, 68, 68);
 }
 
+div.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(35, 35, 35);
+    height: fit-content;
+    border-top: 3px solid rgb(106, 106, 106);
+}
+
+p.footer-made-by {
+    color: white;
+    font-size: 13px;
+    margin-block-end: 0em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+p.footer-county {
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
 body {
     user-select: none;
 }
@@ -203,10 +232,6 @@ div.image-shanghai {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-}
-
-div.footer {
-    height: 30px;
 }
 
 @media screen and (max-width: 1437px) {
