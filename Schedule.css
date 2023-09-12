@@ -69,11 +69,180 @@ div.right-screen-space {
     border-left: 3px solid black;
 }
 
-@media screen and (max-width: 550px) {
+div.club-schedule-container {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
 }
 
-@media screen and (max-width: 480px) {
+a.club-schedule {
+    color: white;
+    text-shadow: 2px 2px 7px black;
+    border-bottom: 3px solid white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    align-self: center;
 }
 
-@media screen and (max-width: 400px) {
+div.schedule-text-container {
+    display: block;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+div.schedule-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a.schedule-text {
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    float: left;
+    padding-inline-start: 0px;
+}
+
+a.register-schedule-link {
+    color: rgb(71, 139, 248);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: opacity 100ms;
+}
+
+a.register-schedule-link:hover {
+    opacity: 0.85;
+}
+
+a.register-schedule-link:active {
+    opacity: .65;
+}
+
+div.club-meetings-container {
+    margin-top: 45px;
+    margin-bottom: 15px;
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+a.club-meetings {
+    color: white;
+    text-shadow: 2px 2px 7px black;
+    border-bottom: 3px solid white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    align-self: center;
+}
+
+div.meetings-text-container {
+    display: block;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+div.meetings-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a.meetings-text {
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    float: left;
+    padding-inline-start: 0px;
+}
+
+ul {
+    margin-top: 7px;
+}
+
+li {
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    float: left;
+    padding-inline-start: 0px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    li {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    a.register-schedule-link {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    a.club-schedule {
+        font-size: 26px;
+    }
+
+    a.schedule-text {
+        font-size: 19px;
+    }
+
+    a.club-meetings {
+        font-size: 26px;
+    }
+
+    a.meetings-text {
+        font-size: 19px;
+    }
+
+    li {
+        font-size: 16px;
+    }
+
+    a.register-schedule-link {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    a.schedule-text {
+        font-size: 16px;
+    }
+
+    a.meetings-text {
+        font-size: 16px;
+    }
+
+    li {
+        font-size: 13px;
+    }
+
+    a.register-schedule-link {
+        font-size: 12px;
+    }
 }
