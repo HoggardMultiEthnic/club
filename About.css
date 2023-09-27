@@ -193,7 +193,7 @@ div.summary-sustainability-text {
 
 a.summary-sustainability-text {
     color: white;
-    text-shadow: 2px 2px 0px black;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0);
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;

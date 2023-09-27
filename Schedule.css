@@ -80,7 +80,7 @@ div.club-schedule-container {
 
 a.club-schedule {
     color: white;
-    text-shadow: 2px 2px 7px black;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
     border-bottom: 3px solid white;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
@@ -141,7 +141,7 @@ div.club-meetings-container {
 
 a.club-meetings {
     color: white;
-    text-shadow: 2px 2px 7px black;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
     border-bottom: 3px solid white;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;

@@ -41,7 +41,7 @@ div.navbar-menu-button {
 
 div.navbar-menu-button:hover {
     opacity: .75;
-    box-shadow: 2px 2px 5px white;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, .45);
 }
 
 div.navbar-menu-button:active {
@@ -87,7 +87,7 @@ a.menu-images {
     font-size: 23px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 2px 2px 15px rgb(0, 0, 0);
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, .45);
     text-decoration: none;
     user-select: none;
     transition: opacity 100ms;
@@ -122,7 +122,7 @@ a.menu-contact {
     font-size: 23px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 2px 2px 15px rgb(0, 0, 0);
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, .45);
     text-decoration: none;
     user-select: none;
     transition: opacity 100ms;
@@ -157,7 +157,7 @@ a.menu-register {
     font-size: 23px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 2px 2px 15px rgb(0, 0, 0);
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, .45);
     text-decoration: none;
     user-select: none;
     transition: opacity 100ms;
@@ -192,7 +192,7 @@ a.menu-about {
     font-size: 23px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 2px 2px 15px rgb(0, 0, 0);
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, .45);
     text-decoration: none;
     user-select: none;
     transition: opacity 100ms;
@@ -226,7 +226,7 @@ a.menu-schedule {
     font-size: 23px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 2px 2px 15px rgb(0, 0, 0);
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, .45);
     text-decoration: none;
     user-select: none;
     transition: opacity 100ms;
@@ -254,7 +254,7 @@ a.Multi-Ethnic {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     text-decoration: none;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, .55);;
     transition: opacity 100ms;
     user-select: none;
 }
@@ -292,7 +292,7 @@ a.images {
     font-size: 30px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);;
     text-decoration: none;
     user-select: none;
     transition: opacity 100ms;
@@ -325,7 +325,7 @@ a.contact {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);;
     user-select: none;
     transition: opacity 100ms;
     transition: border-bottom 200ms; 
@@ -357,7 +357,7 @@ a.register {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
     user-select: none;
     transition: opacity 100ms;
     transition: border-bottom 200ms; 
@@ -389,7 +389,7 @@ a.about {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
     user-select: none;
     transition: opacity 100ms;
     transition: border-bottom 200ms; 
@@ -421,7 +421,7 @@ a.schedule {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
     user-select: none;
     transition: opacity 100ms;
     transition: border-bottom 200ms; 
