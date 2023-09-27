@@ -254,7 +254,7 @@ a.Multi-Ethnic {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     text-decoration: none;
-    text-shadow: 2px 2px 7px rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px black;
     transition: opacity 100ms;
     user-select: none;
 }
@@ -292,7 +292,7 @@ a.images {
     font-size: 30px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 2px 2px 15px rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px black;
     text-decoration: none;
     user-select: none;
     transition: opacity 100ms;
@@ -325,7 +325,7 @@ a.contact {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    text-shadow: 2px 2px 15px rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px black;
     user-select: none;
     transition: opacity 100ms;
     transition: border-bottom 200ms; 
@@ -357,7 +357,7 @@ a.register {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    text-shadow: 2px 2px 15px rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px black;
     user-select: none;
     transition: opacity 100ms;
     transition: border-bottom 200ms; 
@@ -389,7 +389,7 @@ a.about {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    text-shadow: 2px 2px 15px rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px black;
     user-select: none;
     transition: opacity 100ms;
     transition: border-bottom 200ms; 
@@ -421,7 +421,7 @@ a.schedule {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    text-shadow: 2px 2px 15px rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px black;
     user-select: none;
     transition: opacity 100ms;
     transition: border-bottom 200ms; 

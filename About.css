@@ -81,7 +81,7 @@ div.club-summary-container {
 
 a.club-summary {
     color: white;
-    text-shadow: 2px 2px 7px black;
+    text-shadow: 2px 2px 2px black;
     border-bottom: 3px solid white;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
@@ -125,7 +125,7 @@ div.club-summary-accomplish-container {
 
 a.club-summary-accomplish {
     color: white;
-    text-shadow: 2px 2px 7px black;
+    text-shadow: 2px 2px 2px black;
     border-bottom: 3px solid white;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
@@ -169,7 +169,7 @@ div.club-summary-sustainability-container {
 
 a.club-summary-sustainability {
     color: white;
-    text-shadow: 2px 2px 7px black;
+    text-shadow: 2px 2px 2px black;
     border-bottom: 3px solid white;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
@@ -278,6 +278,7 @@ a.summary-sustainability-text {
 
     a.club-summary-accomplish {
         font-size: 22px;
+        text-align: center;
     }
 
     a.summary-accomplish-text {
