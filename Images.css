@@ -49,7 +49,7 @@ div.images-row1-container1 {
     flex-wrap: wrap;
 }
 
-#image-wall-of-china-container {
+#image-arabia1-container {
     display: flex;
     flex: 1;
     margin-top: 40px;
@@ -59,9 +59,9 @@ div.images-row1-container1 {
     text-align: center;
 }
 
-div.image-wall-of-china {
+div.image-arabia1 {
     display: block;
-    background-image: url(images_folder/images-wall-of-china.jpg);
+    background-image: url(images_folder/arabia1.jpg);
     background-size: 100%;
     border: 2px solid white;
     box-shadow: 2px 2px 15px white;
@@ -69,7 +69,7 @@ div.image-wall-of-china {
     width: 450px;
 }
 
-#image-golden-temple-container {
+#image-arabia4-container {
     display: flex;
     flex: 1;
     margin-top: 40px;
@@ -79,15 +79,16 @@ div.image-wall-of-china {
     text-align: center;
 }
 
-div.image-golden-temple {
+div.image-arabia4 {
     display: block;
-    background-image: url(images_folder/images-golden-temple-india.jpg);
+    background-image: url(images_folder/arabia4.jpg);
     background-size: cover;
     border: 2px solid white;
     box-shadow: 2px 2px 15px white;
     height: 300px;
     width: 500px;
     background-position-x: right;
+    background-position-y: -60px;
 }
 
 div.images-row1-container2 {
@@ -96,7 +97,7 @@ div.images-row1-container2 {
     flex: 1;
 }
 
-#image-taj-mahal-container {
+#image-arabia2-container {
     display: flex;
     flex: 1;
     margin-top: 20px;
@@ -106,9 +107,9 @@ div.images-row1-container2 {
     text-align: center;
 }
 
-div.image-taj-mahal {
+div.image-arabia2 {
     display: block;
-    background-image: url(images_folder/images-taj-mahal-india.jpg);
+    background-image: url(images_folder/arabia2.jpg);
     background-size: cover;
     border: 2px solid white;
     box-shadow: 2px 2px 15px white;
@@ -116,7 +117,7 @@ div.image-taj-mahal {
     width: 500px;
 }
 
-#image-seoul-container {
+#image-arabia3-container {
     display: flex;
     flex: 1;
     margin-left: 35px;
@@ -126,14 +127,15 @@ div.image-taj-mahal {
     text-align: center;
 }
 
-div.image-seoul {
+div.image-arabia3 {
     display: block;
-    background-image: url(images_folder/images-seoul-south-korea.webp);
+    background-image: url(images_folder/arabia3.jpg);
     background-size: cover;
     border: 2px solid white;
     box-shadow: 2px 2px 15px white;
     height: 300px;
     width: 500px;
+    background-position-y: -60px;
 }
 
 div.images-row1-container3 {
@@ -142,7 +144,7 @@ div.images-row1-container3 {
     flex: 1;
 }
 
-#image-mt-yoshino-container {
+#image-arabia6-container {
     display: flex;
     flex: 1;
     margin-left: 15px;
@@ -152,9 +154,9 @@ div.images-row1-container3 {
     text-align: center;
 }
 
-div.image-mt-yoshino {
+div.image-arabia6 {
     display: block;
-    background-image: url(images_folder/images-mt-yoshino.webp);
+    background-image: url(images_folder/arabia6.jpg);
     background-size: cover;
     border: 2px solid white;
     box-shadow: 2px 2px 15px white;
@@ -168,7 +170,7 @@ div.images-row1-container4 {
     flex: 1;
 }
 
-#image-nachi-shrine-container {
+#image-arabia7-container {
     display: flex;
     flex: 1;
     margin-top: 40px;
@@ -177,17 +179,18 @@ div.images-row1-container4 {
     text-align: center;
 }
 
-div.image-nachi-shrine {
+div.image-arabia7 {
     display: block;
-    background-image: url(images_folder/images-nachi-shrine-japan.webp);
+    background-image: url(images_folder/arabia7.jpg);
     background-size: cover;
     border: 2px solid white;
     box-shadow: 2px 2px 15px white;
     height: 400px;
     width: 375px;
+    background-position-y: -70px;
 }
 
-#image-gyeongju-south-korea-container {
+#image-arabia8-container {
     display: flex;
     flex: 1;
     margin-top: 40px;
@@ -196,17 +199,18 @@ div.image-nachi-shrine {
     text-align: center;
 }
 
-div.image-gyeongju-south-korea {
+div.image-arabia8 {
     display: block;
-    background-image: url(images_folder/images-gyeongju-south-korea.webp);
+    background-image: url(images_folder/arabia8.jpg);
     background-size: cover;
     border: 2px solid white;
     box-shadow: 2px 2px 15px white;
     height: 300px;
     width: 400px;
+    background-position-y: -90px;
 }
 
-#image-shanghai-container {
+#image-arabia5-container {
     display: flex;
     flex: 1;
     margin-right: 15px;
@@ -216,14 +220,15 @@ div.image-gyeongju-south-korea {
     text-align: center;
 }
 
-div.image-shanghai {
+div.image-arabia5 {
     display: block;
-    background-image: url(images_folder/images-shanghai-china.jpg);
+    background-image: url(images_folder/arabia5.jpg);
     background-size: cover;
     border: 2px solid white;
     box-shadow: 2px 2px 15px white;
     height: 300px;
     width: 450px;
+    background-position-y: -20px;
 }
 
 .captions {
@@ -242,96 +247,97 @@ div.image-shanghai {
 
 @media screen and (max-width: 670px) {
 
-    #image-wall-of-china-container {
+    #image-arabia1-container {
         margin-top: 20px;
         margin-left: 5px;
         margin-right: 5px;
     }
 
-    #image-golden-temple-container {
+    #image-arabia4-container {
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
     }
 
-    #image-taj-mahal-container {
+    #image-arabia2-container {
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
     }
 
-    #image-seoul-container {
+    #image-arabia3-container {
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
     }
 
-    #image-mt-yoshino-container {
+    #image-arabia6-container {
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
     }
 
-    #image-nachi-shrine-container {
+    #image-arabia7-container {
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
     }
 
-    #image-gyeongju-south-korea-container {
+    #image-arabia8-container {
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
     }
 
-    #image-shanghai-container {
+    #image-arabia5-container {
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
     }
  
-    div.image-wall-of-china {
+    div.image-arabia1 {
+        height: 160px;
+        width: 280px;
+        background-position-y: -25px;
+    }
+
+    div.image-arabia4 {
+        height: 160px;
+        width: 280px;
+        background-position-y: -30px;
+    }
+
+    div.image-arabia2 {
         height: 160px;
         width: 280px;
     }
 
-    div.image-golden-temple {
+    div.image-arabia3 {
         height: 160px;
         width: 280px;
+        background-position-y: -30px;
     }
 
-    div.image-taj-mahal {
-        height: 160px;
-        width: 280px;
-    }
-
-    div.image-seoul {
-        height: 160px;
-        width: 280px;
-    }
-
-    div.image-mt-yoshino {
+    div.image-arabia6 {
         height: 400px;
         width: 280px;
     }
 
-    div.image-nachi-shrine {
+    div.image-arabia7 {
         height: 400px;
         width: 280px;
         background-position: center;
     }
 
-    div.image-gyeongju-south-korea {
+    div.image-arabia8 {
         height: 350px;
         width: 280px;
+        background-position-y: -20px;
     }
 
-    div.image-shanghai {
+    div.image-arabia5 {
         height: 160px;
         width: 280px;
-    }
-
-    #nachi-shrine-caption {
-        font-size: 18px;
+        background-position-y: -35px;
     }
 }
