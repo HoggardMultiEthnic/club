@@ -77,7 +77,7 @@ div.club-officer-container {
     align-items: center;
 }
 
-a.club-officer {
+p.club-officer {
     color: white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
     border-bottom: 3px solid white;
@@ -86,6 +86,8 @@ a.club-officer {
     font-weight: 600;
     text-decoration: none;
     align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 div.officer-list-container {
@@ -128,7 +130,7 @@ div.club-founders-container {
     align-items: center;
 }
 
-a.club-founders {
+p.club-founders {
     color: white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
     border-bottom: 3px solid white;
@@ -137,6 +139,8 @@ a.club-founders {
     font-weight: 600;
     text-decoration: none;
     align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 div.founders-list {
@@ -168,7 +172,7 @@ div.jack {
 }
 
 div.jack-container {
-    display: inline-block;
+    display: block;
 }
 
 div.email-container {
@@ -216,7 +220,7 @@ div.club-leaders-container {
     align-items: center;
 }
 
-a.club-leaders {
+p.club-leaders {
     color: white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
     border-bottom: 3px solid white;
@@ -225,6 +229,8 @@ a.club-leaders {
     font-weight: 600;
     text-decoration: none;
     align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .leaders-container {
@@ -238,7 +244,7 @@ div.haytham {
 }
 
 div.haytham-container {
-    display: inline-block;
+    display: block;
 }
 
 ul.leaders-list-haytham {
@@ -289,23 +295,31 @@ ul.leaders-list-haytham {
 }
 
 @media screen and (max-width: 400px) {
+    a.email {
+        margin-left: 0px;
+    }
+
+    ul.founders-list-john {
+        margin-right: 20px;
+    }
+
+    ul.founders-list-owen {
+        margin-right: 20px;
+    }
+
+    ul.officer-list {
+        margin-right: 20px;
+    }
+
     div.jack {
         display: block;
         text-align: center;
         padding-left: 10px;
     }
+
     div.jack-container {
-        display: block;
-        text-align: center;
-    }
-
-    div.email-container {
-        display: inline-block;
-    }
-
-    ul.founders-list-jack {
-        display: block;
-        font-size: 15px;
+        display: flex;
+        justify-content: center;
     }
 
     div.haytham {
@@ -315,8 +329,9 @@ ul.leaders-list-haytham {
         margin-bottom: 20px;
     }
 
-    ul.leaders-list-haytham {
-        display: block;
-        font-size: 15px;
+    div.haytham-container {
+        display: flex;
+        justify-content: center;
     }
+
 }

@@ -43,9 +43,11 @@
             </div>
       
             <div class="navbar-menu-button-containter">
-            <div class="navbar-menu-button">
-              <button class="menu-button"></button>
-            </div>
+              <div class="navbar-menu-button-bars-containter" onclick="toggleMenu(this)">
+                <div class="navbar-menu-button-bar1"></div>
+                <div class="navbar-menu-button-bar2"></div>
+                <div class="navbar-menu-button-bar3"></div>
+              </div>
             </div>
             <div id="Upper-navbar-buttons-menu-container-override">
             <div id="Upper-navbar-buttons-menu-container">
@@ -75,7 +77,7 @@
               </div>
               <div class="main-page" id="main-page">
                   <div class="club-officer-container">
-                    <a class="club-officer">Club Officer</a>
+                    <p class="club-officer">Club Officer</p>>
                   </div>
                     <div class="officer-list-container">
                       <div class="officer-list">
@@ -87,7 +89,7 @@
                     </div>
                 <div class="contact-founders">
                   <div class="club-founders-container">
-                    <a class="club-founders">Club Founders</a>
+                    <p class="club-founders">Club Founders</p>
                   </div>
                     <div class="founders-list">
                       <div class="founders-container">
@@ -121,7 +123,7 @@
                     </div>
                   <div class="contact-leaders">
                     <div class="club-leaders-container">
-                      <a class="club-leaders">Leadership</a>
+                      <p class="club-leaders">Leadership</p>
                     </div>
                     <div class="leaders-container">
                       <div class="haytham">
@@ -152,23 +154,27 @@
               </p>
             </div>
           <script>
-            var navbarMenuButton = document.getElementsByClassName("menu-button");
-            var x;
-            for (x = 0; x < navbarMenuButton.length; x++) {
-              navbarMenuButton[x].addEventListener("click", function() {
-                this.classList.toggle("active");
-                let menuCollapsible = document.getElementById("Upper-navbar-buttons-menu");
-                if (menuCollapsible.style.display === "flex") {
-                  menuCollapsible.style.display = "none";
-                  document.getElementById("Upper-navbar-buttons-menu-container").style.display = "none";
-                  document.getElementById("upper-navbar-main").style.paddingBottom = "20px";
-                } else {
-                  document.getElementById("upper-navbar-main").style.paddingBottom = "0px";
-                  document.getElementById("Upper-navbar-buttons-menu-container").style.display = "flex";
-                  menuCollapsible.style.display = "flex";
-                }
-              });
-            }
+            function toggleMenu(x) {
+              x.classList.toggle("animate");
+              }
+
+              var navbarMenuButton = document.getElementsByClassName("navbar-menu-button-bars-containter");
+              var x;
+              for (x = 0; x < navbarMenuButton.length; x++) {
+                navbarMenuButton[x].addEventListener("click", function() {
+                  this.classList.toggle("active");
+                  let menuCollapsible = document.getElementById("Upper-navbar-buttons-menu");
+                  if (menuCollapsible.style.display === "flex") {
+                    menuCollapsible.style.display = "none";
+                    document.getElementById("Upper-navbar-buttons-menu-container").style.display = "none";
+                    document.getElementById("upper-navbar-main").style.paddingBottom = "20px";
+                  } else {
+                    document.getElementById("upper-navbar-main").style.paddingBottom = "0px";
+                    document.getElementById("Upper-navbar-buttons-menu-container").style.display = "flex";
+                    menuCollapsible.style.display = "flex";
+                  }
+                });
+              }
         </script>
     </body>
 </html>

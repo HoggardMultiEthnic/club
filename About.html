@@ -43,9 +43,11 @@
             </div>
       
             <div class="navbar-menu-button-containter">
-            <div class="navbar-menu-button">
-              <button class="menu-button"></button>
-            </div>
+              <div class="navbar-menu-button-bars-containter" onclick="toggleMenu(this)">
+                <div class="navbar-menu-button-bar1"></div>
+                <div class="navbar-menu-button-bar2"></div>
+                <div class="navbar-menu-button-bar3"></div>
+              </div>
             </div>
             <div id="Upper-navbar-buttons-menu-container-override">
             <div id="Upper-navbar-buttons-menu-container">
@@ -76,40 +78,40 @@
               <div class="main-page" id="main-page">
                 <div class="club-summary">
                   <div class="club-summary-container">
-                    <a class="club-summary">About Us</a>
+                    <p class="club-summary">About Us</p>
                   </div>
                     <div class="summary-text-container">
                       <div class="summary-text">
-                        <a class="summary-text">Through this club, we strive to spread the awareness and
+                        <p class="summary-text">Through this club, we strive to spread the awareness and
                           importance of different cultures from all around the globe.
-                        </a>
+                        </p>
                       </div>
                     </div>
                 </div>
                 <div class="club-summary-accomplish">
                   <div class="club-summary-accomplish-container">
-                    <a class="club-summary-accomplish">How We Achieve This</a>
+                    <p class="club-summary-accomplish">How We Achieve This</p>
                   </div>
                     <div class="summary-accomplish-text-container">
                       <div class="summary-accomplish-text">
-                        <a class="summary-accomplish-text">We educate those interested in learning about 
+                        <p class="summary-accomplish-text">We educate those interested in learning about 
                           other cultures through presentations, games, food, and cultural traditions during 
                           club meetings. This provides everyone with a basic understanding and experience of various 
                           cultures from around the world.
-                        </a>
+                        </p>
                       </div>
                     </div>
                 </div>
                 <div class="club-summary-sustainability">
                   <div class="club-summary-sustainability-container">
-                    <a class="club-summary-sustainability">Sustainability</a>
+                    <p class="club-summary-sustainability">Sustainability</p>
                   </div>
                     <div class="summary-sustainability-text-container">
                       <div class="summary-sustainability-text">
-                        <a class="summary-sustainability-text">As the club progresses, we plan to open up leadership 
+                        <p class="summary-sustainability-text">As the club progresses, we plan to open up leadership 
                           opportunites for members. These positions will be able to present a culture of their own 
                           and provide the club with a hands-on experience in the specific culture of interest.
-                        </a>
+                        </p>
                       </div>
                     </div>
                 </div>
@@ -128,23 +130,27 @@
               </p>
             </div>
           <script>
-            var navbarMenuButton = document.getElementsByClassName("menu-button");
-            var x;
-            for (x = 0; x < navbarMenuButton.length; x++) {
-              navbarMenuButton[x].addEventListener("click", function() {
-                this.classList.toggle("active");
-                let menuCollapsible = document.getElementById("Upper-navbar-buttons-menu");
-                if (menuCollapsible.style.display === "flex") {
-                  menuCollapsible.style.display = "none";
-                  document.getElementById("Upper-navbar-buttons-menu-container").style.display = "none";
-                  document.getElementById("upper-navbar-main").style.paddingBottom = "20px";
-                } else {
-                  document.getElementById("upper-navbar-main").style.paddingBottom = "0px";
-                  document.getElementById("Upper-navbar-buttons-menu-container").style.display = "flex";
-                  menuCollapsible.style.display = "flex";
-                }
-              });
-            }
+            function toggleMenu(x) {
+              x.classList.toggle("animate");
+              }
+
+              var navbarMenuButton = document.getElementsByClassName("navbar-menu-button-bars-containter");
+              var x;
+              for (x = 0; x < navbarMenuButton.length; x++) {
+                navbarMenuButton[x].addEventListener("click", function() {
+                  this.classList.toggle("active");
+                  let menuCollapsible = document.getElementById("Upper-navbar-buttons-menu");
+                  if (menuCollapsible.style.display === "flex") {
+                    menuCollapsible.style.display = "none";
+                    document.getElementById("Upper-navbar-buttons-menu-container").style.display = "none";
+                    document.getElementById("upper-navbar-main").style.paddingBottom = "20px";
+                  } else {
+                    document.getElementById("upper-navbar-main").style.paddingBottom = "0px";
+                    document.getElementById("Upper-navbar-buttons-menu-container").style.display = "flex";
+                    menuCollapsible.style.display = "flex";
+                  }
+                });
+              }
         </script>
     </body>
 </html>

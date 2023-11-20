@@ -141,7 +141,7 @@ div.summary-page {
     color: rgb(255, 255, 255);
 }
 
-a.summary {
+p.summary {
     font-size: 140%;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -162,7 +162,7 @@ div.cultures-heading {
     justify-content: center;
 }
 
-a.cultures {
+p.cultures {
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -628,11 +628,11 @@ div.footer {
         font-size: 15px;
     }
 
-    a.summary {
+    p.summary {
         font-size: 100%;
     }
 
-    a.cultures {
+    p.cultures {
         font-size: 30px;
     }
 

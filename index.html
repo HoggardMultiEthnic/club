@@ -43,9 +43,11 @@
       </div>
 
       <div class="navbar-menu-button-containter">
-      <div class="navbar-menu-button">
-        <button class="menu-button"></button>
-      </div>
+        <div class="navbar-menu-button-bars-containter" onclick="toggleMenu(this)">
+          <div class="navbar-menu-button-bar1"></div>
+          <div class="navbar-menu-button-bar2"></div>
+          <div class="navbar-menu-button-bar3"></div>
+        </div>
       </div>
       <div id="Upper-navbar-buttons-menu-container-override">
       <div id="Upper-navbar-buttons-menu-container">
@@ -90,16 +92,16 @@
       </div>
     </div>
     <div class="summary-page">
-      <a class="summary">The Hoggard Multi-Ethnic Club is the center of diversity that 
+      <p class="summary">The Hoggard Multi-Ethnic Club is the center of diversity that 
         teaches students about various cultures from around the world.
-      </a>
+      </p>
     </div>
 
     <div class="culture-page">
       <div class="cultures-heading">
-        <a class="cultures">
+        <p class="cultures">
           Click to learn more
-        </a>
+        </p>
       </div>
 
       <div class="cultures-row1">
@@ -168,7 +170,11 @@
       </p>
     </div>
     <script>
-      var navbarMenuButton = document.getElementsByClassName("menu-button");
+      function toggleMenu(x) {
+			x.classList.toggle("animate");
+      }
+
+      var navbarMenuButton = document.getElementsByClassName("navbar-menu-button-bars-containter");
       var x;
       for (x = 0; x < navbarMenuButton.length; x++) {
         navbarMenuButton[x].addEventListener("click", function() {

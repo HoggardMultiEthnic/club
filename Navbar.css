@@ -27,34 +27,47 @@ div.navbar-menu-button-containter {
     text-align: center;
 }
 
-div.navbar-menu-button {
-    display: none;
-    height: 30px;
-    width: 30px;
-    background-image: url(images_folder/menu-icon.png);
-    background-size: cover;
-    user-select: none;
+.navbar-menu-button-bars-containter {
+    display: block;
     cursor: pointer;
+    padding: 0px;
     transition: opacity 100ms;
     transition: box-shadow 200ms;
 }
 
-div.navbar-menu-button:hover {
+.navbar-menu-button-bars-containter:hover {
     opacity: .75;
-    box-shadow: 2px 2px 5px rgba(255, 255, 255, .45);
 }
 
-div.navbar-menu-button:active {
+.navbar-menu-button-bars-containter:active {
     opacity: .55;
 }
 
-button.menu-button {
-    height: 100%;
-    width: 100%;
-    background-color: transparent;
-    border: none;
+.navbar-menu-button-bar1, .navbar-menu-button-bar2, .navbar-menu-button-bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
     user-select: none;
     cursor: pointer;
+}
+
+/* Rotate first bar */
+.animate .navbar-menu-button-bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.animate .navbar-menu-button-bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.animate .navbar-menu-button-bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
 }
 
 #Upper-navbar-buttons-menu-container {
@@ -254,7 +267,7 @@ a.Multi-Ethnic {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     text-decoration: none;
-    text-shadow: 2px 2px 15px rgba(0, 0, 0, .55);;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, .55);
     transition: opacity 100ms;
     user-select: none;
 }

@@ -55,7 +55,7 @@ div.left-screen-space {
 div.main-page {
     padding-right: 0px;
     padding-left: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     display: flex;
     flex: 1;
     min-height: 100vh;
@@ -79,7 +79,7 @@ div.club-summary-container {
     align-items: center;
 }
 
-a.club-summary {
+p.club-summary {
     color: white;
     text-shadow: 2px 2px 2px black;
     border-bottom: 3px solid white;
@@ -88,6 +88,8 @@ a.club-summary {
     font-weight: 600;
     text-decoration: none;
     align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 div.summary-text-container {
@@ -103,7 +105,7 @@ div.summary-text {
     text-align: center;
 }
 
-a.summary-text {
+p.summary-text {
     color: white;
     text-shadow: 2px 2px 0px black;
     font-size: 22px;
@@ -112,6 +114,8 @@ a.summary-text {
     text-decoration: none;
     float: left;
     padding-inline-start: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 div.club-summary-accomplish-container {
@@ -123,7 +127,7 @@ div.club-summary-accomplish-container {
     align-items: center;
 }
 
-a.club-summary-accomplish {
+p.club-summary-accomplish {
     color: white;
     text-shadow: 2px 2px 2px black;
     border-bottom: 3px solid white;
@@ -132,6 +136,8 @@ a.club-summary-accomplish {
     font-weight: 600;
     text-decoration: none;
     align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 div.summary-accomplish-text-container {
@@ -147,7 +153,7 @@ div.summary-accomplish-text {
     text-align: center;
 }
 
-a.summary-accomplish-text {
+p.summary-accomplish-text {
     color: white;
     text-shadow: 2px 2px 0px black;
     font-size: 22px;
@@ -156,6 +162,8 @@ a.summary-accomplish-text {
     text-decoration: none;
     float: left;
     padding-inline-start: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 div.club-summary-sustainability-container {
@@ -167,7 +175,7 @@ div.club-summary-sustainability-container {
     align-items: center;
 }
 
-a.club-summary-sustainability {
+p.club-summary-sustainability {
     color: white;
     text-shadow: 2px 2px 2px black;
     border-bottom: 3px solid white;
@@ -176,6 +184,8 @@ a.club-summary-sustainability {
     font-weight: 600;
     text-decoration: none;
     align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 div.summary-sustainability-text-container {
@@ -191,7 +201,7 @@ div.summary-sustainability-text {
     text-align: center;
 }
 
-a.summary-sustainability-text {
+p.summary-sustainability-text {
     color: white;
     text-shadow: 2px 2px 0px rgba(0, 0, 0);
     font-size: 22px;
@@ -200,6 +210,8 @@ a.summary-sustainability-text {
     text-decoration: none;
     float: left;
     padding-inline-start: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width: 850px) {
@@ -220,41 +232,41 @@ a.summary-sustainability-text {
 }
 
 @media screen and (max-width: 520px) {
-    a.summary-text {
+    p.summary-text {
         font-size: 18px;
     }
 
-    a.summary-accomplish-text {
+    p.summary-accomplish-text {
         font-size: 18px;
     }
 
-    a.summary-sustainability-text {
+    p.summary-sustainability-text {
         font-size: 18px;
     }
 }
 
 @media screen and (max-width: 480px) {
-    a.club-summary {
+    p.club-summary {
         font-size: 27px;
     }
 
-    a.summary-text {
+    p.summary-text {
         font-size: 16px;
     }
 
-    a.club-summary-accomplish {
+    p.club-summary-accomplish {
         font-size: 27px;
     }
 
-    a.summary-accomplish-text {
+    p.summary-accomplish-text {
         font-size: 16px;
     }
 
-    a.club-summary-sustainability {
+    p.club-summary-sustainability {
         font-size: 27px;
     }
 
-    a.summary-sustainability-text {
+    p.summary-sustainability-text {
         font-size: 16px;
     }
 
@@ -272,24 +284,24 @@ a.summary-sustainability-text {
         font-size: 25px;
     }
 
-    a.summary-text {
+    p.summary-text {
         font-size: 14px;
     }
 
-    a.club-summary-accomplish {
+    p.club-summary-accomplish {
         font-size: 22px;
         text-align: center;
     }
 
-    a.summary-accomplish-text {
+    p.summary-accomplish-text {
         font-size: 14px;
     }
 
-    a.club-summary-sustainability {
+    p.club-summary-sustainability {
         font-size: 25px;
     }
 
-    a.summary-sustainability-text {
+    p.summary-sustainability-text {
         font-size: 14px;
     }
 }

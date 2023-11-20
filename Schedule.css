@@ -78,7 +78,7 @@ div.club-schedule-container {
     align-items: center;
 }
 
-a.club-schedule {
+p.club-schedule {
     color: white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
     border-bottom: 3px solid white;
@@ -87,6 +87,8 @@ a.club-schedule {
     font-weight: 600;
     text-decoration: none;
     align-self: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
 }
 
 div.schedule-text-container {
@@ -103,7 +105,7 @@ div.schedule-text {
     text-align: center;
 }
 
-a.schedule-text {
+p.schedule-text {
     color: white;
     text-shadow: 2px 2px 0px black;
     font-size: 22px;
@@ -112,6 +114,8 @@ a.schedule-text {
     text-decoration: none;
     float: left;
     padding-inline-start: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 a.register-schedule-link {
@@ -139,7 +143,7 @@ div.club-meetings-container {
     align-items: center;
 }
 
-a.club-meetings {
+p.club-meetings {
     color: white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
     border-bottom: 3px solid white;
@@ -148,11 +152,13 @@ a.club-meetings {
     font-weight: 600;
     text-decoration: none;
     align-self: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 div.meetings-text-container {
     display: block;
-    padding-left: 15%;
+    padding-left: 6%;
     padding-right: 15%;
 }
 
@@ -164,7 +170,7 @@ div.meetings-text {
     text-align: center;
 }
 
-a.meetings-text {
+p.meetings-text {
     color: white;
     text-shadow: 2px 2px 0px black;
     font-size: 22px;
@@ -173,6 +179,9 @@ a.meetings-text {
     text-decoration: none;
     float: left;
     padding-inline-start: 0px;
+    padding-left: 9%;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 
 ul {
@@ -204,19 +213,19 @@ li {
 }
 
 @media screen and (max-width: 570px) {
-    a.club-schedule {
+    p.club-schedule {
         font-size: 26px;
     }
 
-    a.schedule-text {
+    p.schedule-text {
         font-size: 19px;
     }
 
-    a.club-meetings {
+    p.club-meetings {
         font-size: 26px;
     }
 
-    a.meetings-text {
+    p.meetings-text {
         font-size: 19px;
     }
 
@@ -230,11 +239,11 @@ li {
 }
 
 @media screen and (max-width: 440px) {
-    a.schedule-text {
+    p.schedule-text {
         font-size: 16px;
     }
 
-    a.meetings-text {
+    p.meetings-text {
         font-size: 16px;
     }
 

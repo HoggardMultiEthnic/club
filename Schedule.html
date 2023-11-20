@@ -43,9 +43,11 @@
             </div>
       
             <div class="navbar-menu-button-containter">
-            <div class="navbar-menu-button">
-              <button class="menu-button"></button>
-            </div>
+              <div class="navbar-menu-button-bars-containter" onclick="toggleMenu(this)">
+                <div class="navbar-menu-button-bar1"></div>
+                <div class="navbar-menu-button-bar2"></div>
+                <div class="navbar-menu-button-bar3"></div>
+              </div>
             </div>
             <div id="Upper-navbar-buttons-menu-container-override">
             <div id="Upper-navbar-buttons-menu-container">
@@ -76,28 +78,28 @@
               <div class="main-page" id="main-page">
                 <div class="club-schedule">
                   <div class="club-schedule-container">
-                    <a class="club-schedule">Schedule</a>
+                    <p class="club-schedule">Schedule</p>
                   </div>
                     <div class="schedule-text-container">
                       <div class="schedule-text">
-                        <a class="schedule-text">Our next meeting will be held on Wednesday, November 8th in 
+                        <p class="schedule-text">Our next meeting will be held on Wednesday, December 13th in 
                           Mrs. Robons room (room 222, upstairs back building). Meetings are held once a month and 
                           emails will be sent out before each meeting. If you are not on the email list, 
                           please fill out this form:
                           <div class="register-link-container">
                            <a class="register-schedule-link" href="https://forms.gle/1gfmY8HVWx1DGfYUA">https://forms.gle/1gfmY8HVWx1DGfYUA</a> 
                           </div>
-                          </a>
+                        </p>
                       </div>
                     </div>
                 </div>
                 <div class="club-meetings">
                   <div class="club-meetings-container">
-                    <a class="club-meetings">Meetings</a>
+                    <p class="club-meetings">Meetings</p>
                   </div>
                     <div class="meetings-text-container">
                       <div class="meetings-text">
-                        <a class="meetings-text">During club meetings, members will:</a>
+                        <p class="meetings-text">During club meetings, members will:</a>
                         <ul>
                           <li>Watch a brief presentation about the specific culture of interest</li>
                           <li>Be given snacks and food specific to the culture</li>
@@ -122,23 +124,27 @@
               </p>
             </div>
           <script>
-            var navbarMenuButton = document.getElementsByClassName("menu-button");
-            var x;
-            for (x = 0; x < navbarMenuButton.length; x++) {
-              navbarMenuButton[x].addEventListener("click", function() {
-                this.classList.toggle("active");
-                let menuCollapsible = document.getElementById("Upper-navbar-buttons-menu");
-                if (menuCollapsible.style.display === "flex") {
-                  menuCollapsible.style.display = "none";
-                  document.getElementById("Upper-navbar-buttons-menu-container").style.display = "none";
-                  document.getElementById("upper-navbar-main").style.paddingBottom = "20px";
-                } else {
-                  document.getElementById("upper-navbar-main").style.paddingBottom = "0px";
-                  document.getElementById("Upper-navbar-buttons-menu-container").style.display = "flex";
-                  menuCollapsible.style.display = "flex";
-                }
-              });
-            }
+            function toggleMenu(x) {
+              x.classList.toggle("animate");
+              }
+
+              var navbarMenuButton = document.getElementsByClassName("navbar-menu-button-bars-containter");
+              var x;
+              for (x = 0; x < navbarMenuButton.length; x++) {
+                navbarMenuButton[x].addEventListener("click", function() {
+                  this.classList.toggle("active");
+                  let menuCollapsible = document.getElementById("Upper-navbar-buttons-menu");
+                  if (menuCollapsible.style.display === "flex") {
+                    menuCollapsible.style.display = "none";
+                    document.getElementById("Upper-navbar-buttons-menu-container").style.display = "none";
+                    document.getElementById("upper-navbar-main").style.paddingBottom = "20px";
+                  } else {
+                    document.getElementById("upper-navbar-main").style.paddingBottom = "0px";
+                    document.getElementById("Upper-navbar-buttons-menu-container").style.display = "flex";
+                    menuCollapsible.style.display = "flex";
+                  }
+                });
+              }
         </script>
     </body>
 </html>
