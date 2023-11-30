@@ -62,6 +62,27 @@ div.images-row1-container1 {
 div.image-arabia1 {
     display: block;
     background-image: url(images_folder/arabia1.jpg);
+    background-size: 110%;
+    background-position-y: -40px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 450px;
+}
+
+#image-Korea1-container {
+    display: flex;
+    flex: 1;
+    margin-top: 40px;
+    margin-left: 15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-Korea1 {
+    display: block;
+    background-image: url(images_folder/Korea1.jpg);
     background-size: 100%;
     border: 2px solid white;
     box-shadow: 2px 2px 15px white;
@@ -91,6 +112,26 @@ div.image-arabia4 {
     background-position-y: -60px;
 }
 
+#image-Korea9-container {
+    display: flex;
+    flex: 1;
+    margin-top: 40px;
+    margin-left: 25px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-Korea9 {
+    display: block;
+    background-image: url(images_folder/Korea9.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 420px;
+    width: 470px;
+}
+
 div.images-row1-container2 {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +151,26 @@ div.images-row1-container2 {
 div.image-arabia2 {
     display: block;
     background-image: url(images_folder/arabia2.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 500px;
+}
+
+#image-Korea3-container {
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+    margin-left: 15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-Korea3 {
+    display: block;
+    background-image: url(images_folder/Korea3.jpg);
     background-size: cover;
     border: 2px solid white;
     box-shadow: 2px 2px 15px white;
@@ -138,10 +199,51 @@ div.image-arabia3 {
     background-position-y: -60px;
 }
 
+#image-Korea4-container {
+    display: flex;
+    flex: 1;
+    margin-left: 35px;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-Korea4 {
+    display: block;
+    background-image: url(images_folder/Korea4.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 500px;
+    background-position-y: -60px;
+}
+
 div.images-row1-container3 {
     display: flex;
     flex-wrap: wrap;
     flex: 1;
+}
+
+#image-Korea7-container {
+    display: flex;
+    flex: 1;
+    margin-top: 40px;
+    margin-left: 25px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-Korea7 {
+    display: block;
+    background-image: url(images_folder/Korea7.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 500px;
 }
 
 #image-arabia6-container {
@@ -165,8 +267,51 @@ div.image-arabia6 {
     background-position-x: right;
 }
 
+#image-Korea8-container {
+    display: flex;
+    flex: 1;
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-Korea8 {
+    display: block;
+    background-image: url(images_folder/Korea8.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 500px;
+}
+
+#image-Korea2-container {
+    display: flex;
+    flex: 1;
+    margin-left: 15px;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-Korea2 {
+    display: block;
+    background-image: url(images_folder/Korea2.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 500px;
+    width: 350px;
+    background-position-x: right;
+}
+
 div.images-row1-container4 {
     display: flex;
+    flex-wrap: wrap;
     flex: 1;
 }
 
@@ -190,10 +335,35 @@ div.image-arabia7 {
     background-position-y: -70px;
 }
 
+#image-Korea5-container {
+    display: flex;
+    flex: 1;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-Korea5 {
+    display: block;
+    background-image: url(images_folder/Korea5.jpg);
+    background-size: 115%;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 500px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-position-y: -50px;
+    background-position-x: -25px;
+}
+
 #image-arabia8-container {
     display: flex;
     flex: 1;
     margin-top: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -218,6 +388,8 @@ div.image-arabia8 {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 div.image-arabia5 {
@@ -239,15 +411,14 @@ div.image-arabia5 {
     font-weight: 500;
 }
 
-@media screen and (max-width: 1437px) {
-    div.images-row1-container4 {
-        flex-wrap: wrap;
-    }
-}
-
 @media screen and (max-width: 670px) {
-
     #image-arabia1-container {
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #image-Korea1-container {
         margin-top: 20px;
         margin-left: 5px;
         margin-right: 5px;
@@ -259,7 +430,19 @@ div.image-arabia5 {
         margin-right: 5px;
     }
 
+    #image-Korea9-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
     #image-arabia2-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #image-Korea3-container {
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
@@ -271,7 +454,31 @@ div.image-arabia5 {
         margin-right: 5px;
     }
 
+    #image-Korea4-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #image-Korea7-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
     #image-arabia6-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #image-Korea8-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #image-Korea2-container {
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
@@ -281,6 +488,17 @@ div.image-arabia5 {
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
+    }
+
+    #image-Korea5-container {
+        height: 200px;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    div.image-Korea5 {
+        background-position-x: -17px;
     }
 
     #image-arabia8-container {
@@ -298,8 +516,14 @@ div.image-arabia5 {
     div.image-arabia1 {
         height: 160px;
         width: 280px;
-        background-position-y: -25px;
+        background-position-y: -50px;
     }
+
+    div.image-Korea1 {
+        height: 160px;
+        width: 280px;
+    }
+
 
     div.image-arabia4 {
         height: 160px;
@@ -307,7 +531,17 @@ div.image-arabia5 {
         background-position-y: -30px;
     }
 
+    div.image-Korea9 {
+        height: 290px;
+        width: 280px;
+    }
+
     div.image-arabia2 {
+        height: 160px;
+        width: 280px;
+    }
+
+    div.image-Korea3 {
         height: 160px;
         width: 280px;
     }
@@ -318,7 +552,28 @@ div.image-arabia5 {
         background-position-y: -30px;
     }
 
+    div.image-Korea4 {
+        height: 160px;
+        width: 280px;
+        background-position-y: -15px;
+    }
+
+    div.image-Korea7 {
+        height: 160px;
+        width: 280px;
+    }
+
     div.image-arabia6 {
+        height: 400px;
+        width: 280px;
+    }
+
+    div.image-Korea8 {
+        height: 160px;
+        width: 280px;
+    }
+
+    div.image-Korea2 {
         height: 400px;
         width: 280px;
     }
@@ -328,6 +583,12 @@ div.image-arabia5 {
         width: 280px;
         background-position: center;
     }
+
+    div.image-Korea5 {
+        height: 400px;
+        width: 280px;
+    }
+
 
     div.image-arabia8 {
         height: 350px;

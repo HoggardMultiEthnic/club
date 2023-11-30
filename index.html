@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="icon" href="images_folder/hoggard logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
   </head>
   <body>
     <div class="Upper-navbar" id="upper-navbar-main">
@@ -97,6 +98,38 @@
       </p>
     </div>
 
+    <div class="swiper imgSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images_folder/Korea3.jpg">
+        </div>
+        <div class="swiper-slide">
+          <img src="images_folder/arabia1.jpg">
+        </div>
+        <div class="swiper-slide">
+          <img src="images_folder/Korea1.jpg">
+        </div>
+        <div class="swiper-slide">
+          <img src="images_folder/Korea5.jpg">
+        </div>
+        <div class="swiper-slide">
+          <img src="images_folder/arabia2.jpg">
+        </div>
+        <div class="swiper-slide">
+          <img src="images_folder/arabia4.jpg">
+        </div>
+        <div class="swiper-slide">
+          <img src="images_folder/arabia3.jpg">
+        </div>
+        <div class="swiper-slide">
+          <img src="images_folder/arabia5.jpg">
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
     <div class="culture-page">
       <div class="cultures-heading">
         <p class="cultures">
@@ -169,7 +202,25 @@
         is appropriate and allowed by law.
       </p>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script>
+       var swiper = new Swiper(".imgSwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 3500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+
       function toggleMenu(x) {
 			x.classList.toggle("animate");
       }
