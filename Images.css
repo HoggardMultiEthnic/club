@@ -90,6 +90,26 @@ div.image-Korea1 {
     width: 450px;
 }
 
+#image-columbia1-container {
+    display: flex;
+    flex: 1;
+    margin-top: 40px;
+    margin-left: 15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-columbia1 {
+    display: block;
+    background-image: url(images_folder/columbia1.jpg);
+    background-size: 130%;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 450px;
+}
+
 #image-arabia4-container {
     display: flex;
     flex: 1;
@@ -110,6 +130,27 @@ div.image-arabia4 {
     width: 500px;
     background-position-x: right;
     background-position-y: -60px;
+}
+
+#image-columbia7-container {
+    display: flex;
+    flex: 1;
+    margin-top: 40px;
+    margin-left: 25px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-columbia7 {
+    display: block;
+    background-image: url(images_folder/columbia7.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 500px;
+    background-position-y: -45px;
 }
 
 #image-Korea9-container {
@@ -172,6 +213,49 @@ div.image-Korea3 {
     display: block;
     background-image: url(images_folder/Korea3.jpg);
     background-size: cover;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 500px;
+}
+
+#image-columbia6-container {
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+    margin-left: 15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-columbia6 {
+    display: block;
+    background-image: url(images_folder/columbia6.jpg);
+    background-size: 110%;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 500px;
+    background-position-x: -50px;
+    background-position-y: -40px;
+}
+
+#image-columbia3-container {
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+    margin-left: 15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-columbia3 {
+    display: block;
+    background-image: url(images_folder/columbia3.jpg);
+    background-size: cover;
+    background-position-y: -20px;
     border: 2px solid white;
     box-shadow: 2px 2px 15px white;
     height: 300px;
@@ -246,6 +330,29 @@ div.image-Korea7 {
     width: 500px;
 }
 
+#image-columbia8-container {
+    display: flex;
+    flex: 1;
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-columbia8 {
+    display: block;
+    background-image: url(images_folder/columbia8.jpg);
+    background-size: 140%;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 500px;
+    background-position-y: -190px;
+    background-position-x: -100px;
+}
+
 #image-arabia6-container {
     display: flex;
     flex: 1;
@@ -309,6 +416,29 @@ div.image-Korea2 {
     background-position-x: right;
 }
 
+#image-columbia4-container {
+    display: flex;
+    flex: 1;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-columbia4 {
+    display: block;
+    background-image: url(images_folder/columbia4.jpg);
+    background-size: 110%;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 500px;
+    background-position-x: -50px;
+    background-position-y: -40px;
+}
+
 div.images-row1-container4 {
     display: flex;
     flex-wrap: wrap;
@@ -319,6 +449,8 @@ div.images-row1-container4 {
     display: flex;
     flex: 1;
     margin-top: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -334,6 +466,29 @@ div.image-arabia7 {
     width: 375px;
     background-position-y: -70px;
 }
+
+#image-columbia9-container {
+    display: flex;
+    flex: 1;
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-columbia9 {
+    display: block;
+    background-image: url(images_folder/columbia9.jpg);
+    background-size: 120%;
+    background-position-y: -110px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 460px;
+    width: 370px;
+}
+
 
 #image-Korea5-container {
     display: flex;
@@ -380,6 +535,29 @@ div.image-arabia8 {
     background-position-y: -90px;
 }
 
+#image-columbia5-container {
+    display: flex;
+    flex: 1;
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-columbia5 {
+    display: block;
+    background-image: url(images_folder/columbia5.jpg);
+    background-size: 110%;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 500px;
+    background-position-y: -60px;
+    background-position-x: -30px;
+}
+
 #image-arabia5-container {
     display: flex;
     flex: 1;
@@ -424,13 +602,31 @@ div.image-arabia5 {
         margin-right: 5px;
     }
 
+    #image-columbia1-container {
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
     #image-arabia4-container {
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
     }
 
+    #image-columbia7-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
     #image-Korea9-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #image-columbia3-container {
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
@@ -448,6 +644,13 @@ div.image-arabia5 {
         margin-right: 5px;
     }
 
+    #image-columbia6-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
     #image-arabia3-container {
         margin-top: 10px;
         margin-left: 5px;
@@ -461,6 +664,12 @@ div.image-arabia5 {
     }
 
     #image-Korea7-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #image-columbia8-container {
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
@@ -484,7 +693,19 @@ div.image-arabia5 {
         margin-right: 5px;
     }
 
+    #image-columbia4-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
     #image-arabia7-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #image-columbia9-container {
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
@@ -507,6 +728,12 @@ div.image-arabia5 {
         margin-right: 5px;
     }
 
+    #image-columbia5-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
     #image-arabia5-container {
         margin-top: 10px;
         margin-left: 5px;
@@ -524,6 +751,11 @@ div.image-arabia5 {
         width: 280px;
     }
 
+    div.image-columbia1 {
+        height: 160px;
+        width: 280px;
+        background-position-y: -30px;
+    }
 
     div.image-arabia4 {
         height: 160px;
@@ -531,9 +763,21 @@ div.image-arabia5 {
         background-position-y: -30px;
     }
 
-    div.image-Korea9 {
-        height: 290px;
+    div.image-columbia7 {
+        height: 160px;
         width: 280px;
+        background-position-y: -30px;
+    }
+
+    div.image-Korea9 {
+        height: 260px;
+        width: 250px;
+    }
+
+    div.image-columbia3 {
+        height: 160px;
+        width: 280px;
+        background-position-y: -20px;
     }
 
     div.image-arabia2 {
@@ -544,6 +788,12 @@ div.image-arabia5 {
     div.image-Korea3 {
         height: 160px;
         width: 280px;
+    }
+
+    div.image-columbia6 {
+        height: 160px;
+        width: 280px;
+        background-position-x: -20px;
     }
 
     div.image-arabia3 {
@@ -563,9 +813,20 @@ div.image-arabia5 {
         width: 280px;
     }
 
-    div.image-arabia6 {
-        height: 400px;
+    div.image-columbia8 {
+        height: 160px;
         width: 280px;
+        background-size: 130%;
+        background-position: center;
+        background-position-x: -40px;
+        background-position-y: -90px;
+    }
+
+    div.image-arabia6 {
+        height: 300px;
+        width: 230px;
+        background-size: 135%;
+        background-position: center;
     }
 
     div.image-Korea8 {
@@ -574,14 +835,31 @@ div.image-arabia5 {
     }
 
     div.image-Korea2 {
-        height: 400px;
+        height: 330px;
+        width: 230px;
+    }
+
+    div.image-columbia4 {
+        height: 160px;
         width: 280px;
+        background-position-x: -30px;
     }
 
     div.image-arabia7 {
-        height: 400px;
-        width: 280px;
+        height: 320px;
+        width: 230px;
+        background-size: 120%;
         background-position: center;
+        background-position-x: -30px;
+    }
+
+    div.image-columbia9 {
+        height: 320px;
+        width: 230px;
+        background-size: 130%;
+        background-position: center;
+        background-position-x: 0px;
+        background-position-y: -70px;
     }
 
     div.image-Korea5 {
@@ -591,9 +869,16 @@ div.image-arabia5 {
 
 
     div.image-arabia8 {
-        height: 350px;
-        width: 280px;
+        height: 270px;
+        width: 230px;
         background-position-y: -20px;
+    }
+
+    div.image-columbia5 {
+        height: 160px;
+        width: 280px;
+        background-position-x: -20px;
+        background-position-y: -40px;
     }
 
     div.image-arabia5 {

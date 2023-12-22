@@ -161,6 +161,11 @@ img{
     margin: 0 auto;
 }
 
+img.columbia8 {
+    object-fit: cover;
+    object-position: center 75%;
+}
+
 div.swiper-button-next {
     color: white;
 }
