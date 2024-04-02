@@ -566,18 +566,6 @@ a.schedule:active {
     div.navbar-menu-button-containter {
         display: flex;
     }
-    
-    div.navbar-menu-button {
-        display: block;
-        height: 30px;
-        width: 30px;
-        border-radius: 4px;
-        background-image: url(images_folder/menu-icon.png);
-        background-size: cover;
-        box-shadow: none;
-        user-select: none;
-        cursor: pointer;
-    }
 }
 
 @media screen and (max-width: 460px) {

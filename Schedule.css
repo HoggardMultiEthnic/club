@@ -134,78 +134,6 @@ a.register-schedule-link:active {
     opacity: .65;
 }
 
-div.club-meetings-container {
-    margin-top: 45px;
-    margin-bottom: 15px;
-    display: flex;
-    height: fit-content;
-    justify-content: center;
-    align-items: center;
-}
-
-p.club-meetings {
-    color: white;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
-    border-bottom: 3px solid white;
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    text-decoration: none;
-    align-self: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-div.meetings-text-container {
-    display: block;
-    padding-left: 6%;
-    padding-right: 15%;
-}
-
-div.meetings-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-p.meetings-text {
-    color: white;
-    text-shadow: 2px 2px 0px black;
-    font-size: 22px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-    float: left;
-    padding-inline-start: 0px;
-    padding-left: 9%;
-    margin-top: 5px;
-    margin-bottom: 15px;
-}
-
-ul {
-    margin-top: 7px;
-}
-
-li {
-    color: white;
-    text-shadow: 2px 2px 0px black;
-    font-size: 22px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-    float: left;
-    padding-inline-start: 0px;
-    margin-bottom: 10px;
-}
-
-@media screen and (max-width: 1000px) {
-    li {
-        font-size: 19px;
-    }
-}
-
 @media screen and (max-width: 800px) {
     a.register-schedule-link {
         font-size: 18px;
@@ -221,18 +149,6 @@ li {
         font-size: 19px;
     }
 
-    p.club-meetings {
-        font-size: 26px;
-    }
-
-    p.meetings-text {
-        font-size: 19px;
-    }
-
-    li {
-        font-size: 16px;
-    }
-
     a.register-schedule-link {
         font-size: 16px;
     }
@@ -241,14 +157,6 @@ li {
 @media screen and (max-width: 440px) {
     p.schedule-text {
         font-size: 16px;
-    }
-
-    p.meetings-text {
-        font-size: 16px;
-    }
-
-    li {
-        font-size: 13px;
     }
 
     a.register-schedule-link {

@@ -69,7 +69,7 @@ div.right-screen-space {
     border-left: 3px solid black;
 }
 
-div.club-officer-container {
+div.club-advisor-container {
     margin-top: 25px;
     display: flex;
     height: fit-content;
@@ -77,7 +77,7 @@ div.club-officer-container {
     align-items: center;
 }
 
-p.club-officer {
+p.club-advisor {
     color: white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
     border-bottom: 3px solid white;
@@ -90,17 +90,17 @@ p.club-officer {
     margin-bottom: 10px;
 }
 
-div.officer-list-container {
+div.advisor-list-container {
     display: block;
 }
 
-div.officer-list {
+div.advisor-list {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-ul.officer-list {
+ul.advisor-list {
     color: white;
     text-shadow: 2px 2px 7px rgba(0, 0, 0, .45);
     font-size: 20px;
@@ -218,6 +218,7 @@ div.club-leaders-container {
     height: fit-content;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 
 p.club-leaders {

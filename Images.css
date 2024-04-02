@@ -132,6 +132,28 @@ div.image-arabia4 {
     background-position-y: -60px;
 }
 
+#image-nigeria1-container {
+    display: flex;
+    flex: 1;
+    margin-top: 40px;
+    margin-left: 25px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-nigeria1 {
+    display: block;
+    background-image: url(images_folder/nigeria1.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 500px;
+    background-position-x: right;
+    background-position-y: -60px;
+}
+
 #image-columbia7-container {
     display: flex;
     flex: 1;
@@ -218,6 +240,27 @@ div.image-Korea3 {
     height: 300px;
     width: 500px;
 }
+
+#image-nigeria2-container {
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+    margin-left: 15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-nigeria2 {
+    display: block;
+    background-image: url(images_folder/nigeria2.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 500px;
+}
+
 
 #image-columbia6-container {
     display: flex;
@@ -416,6 +459,26 @@ div.image-Korea2 {
     background-position-x: right;
 }
 
+#image-nigeria3-container {
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+    margin-left: 15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-nigeria3 {
+    display: block;
+    background-image: url(images_folder/nigeria3.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 500px;
+}
+
 #image-columbia4-container {
     display: flex;
     flex: 1;
@@ -465,6 +528,26 @@ div.image-arabia7 {
     height: 400px;
     width: 375px;
     background-position-y: -70px;
+}
+
+#image-nigeria4-container {
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+    margin-left: 15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.image-nigeria4 {
+    display: block;
+    background-image: url(images_folder/nigeria4.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px white;
+    height: 300px;
+    width: 500px;
 }
 
 #image-columbia9-container {
@@ -614,6 +697,12 @@ div.image-arabia5 {
         margin-right: 5px;
     }
 
+    #image-nigeria1-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
     #image-columbia7-container {
         margin-top: 10px;
         margin-left: 5px;
@@ -639,6 +728,12 @@ div.image-arabia5 {
     }
 
     #image-Korea3-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #image-nigeria2-container {
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
@@ -693,6 +788,12 @@ div.image-arabia5 {
         margin-right: 5px;
     }
 
+    #image-nigeria3-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
     #image-columbia4-container {
         margin-top: 10px;
         margin-left: 5px;
@@ -700,6 +801,12 @@ div.image-arabia5 {
     }
 
     #image-arabia7-container {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #image-nigeria4-container {
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
@@ -763,6 +870,12 @@ div.image-arabia5 {
         background-position-y: -30px;
     }
 
+    div.image-nigeria1 {
+        height: 160px;
+        width: 280px;
+        background-position-y: -30px;
+    }
+
     div.image-columbia7 {
         height: 160px;
         width: 280px;
@@ -786,6 +899,11 @@ div.image-arabia5 {
     }
 
     div.image-Korea3 {
+        height: 160px;
+        width: 280px;
+    }
+
+    div.image-nigeria2 {
         height: 160px;
         width: 280px;
     }
@@ -839,6 +957,11 @@ div.image-arabia5 {
         width: 230px;
     }
 
+    div.image-nigeria3 {
+        height: 160px;
+        width: 280px;
+    }
+
     div.image-columbia4 {
         height: 160px;
         width: 280px;
@@ -851,6 +974,11 @@ div.image-arabia5 {
         background-size: 120%;
         background-position: center;
         background-position-x: -30px;
+    }
+
+    div.image-nigeria4 {
+        height: 160px;
+        width: 280px;
     }
 
     div.image-columbia9 {

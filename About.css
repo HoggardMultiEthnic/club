@@ -118,7 +118,7 @@ p.summary-text {
     margin-bottom: 10px;
 }
 
-div.club-summary-accomplish-container {
+div.club-summary-spark-container {
     margin-top: 45px;
     margin-bottom: 15px;
     display: flex;
@@ -127,7 +127,7 @@ div.club-summary-accomplish-container {
     align-items: center;
 }
 
-p.club-summary-accomplish {
+p.club-summary-spark {
     color: white;
     text-shadow: 2px 2px 2px black;
     border-bottom: 3px solid white;
@@ -140,20 +140,20 @@ p.club-summary-accomplish {
     margin-bottom: 10px;
 }
 
-div.summary-accomplish-text-container {
+div.summary-spark-text-container {
     display: block;
     padding-left: 15%;
     padding-right: 15%;
 }
 
-div.summary-accomplish-text {
+div.summary-spark-text {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-p.summary-accomplish-text {
+p.summary-spark-text {
     color: white;
     text-shadow: 2px 2px 0px black;
     font-size: 22px;
@@ -166,7 +166,7 @@ p.summary-accomplish-text {
     margin-bottom: 10px;
 }
 
-div.club-summary-sustainability-container {
+div.club-summary-change-container {
     margin-top: 45px;
     margin-bottom: 15px;
     display: flex;
@@ -175,7 +175,7 @@ div.club-summary-sustainability-container {
     align-items: center;
 }
 
-p.club-summary-sustainability {
+p.club-summary-change {
     color: white;
     text-shadow: 2px 2px 2px black;
     border-bottom: 3px solid white;
@@ -188,20 +188,164 @@ p.club-summary-sustainability {
     margin-bottom: 10px;
 }
 
-div.summary-sustainability-text-container {
+div.summary-change-text-container {
     display: block;
     padding-left: 15%;
     padding-right: 15%;
 }
 
-div.summary-sustainability-text {
+div.summary-change-text {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-p.summary-sustainability-text {
+p.summary-change-text {
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0);
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    float: left;
+    padding-inline-start: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.club-summary-birth-container {
+    margin-top: 45px;
+    margin-bottom: 15px;
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+p.club-summary-birth {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: 3px solid white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.summary-birth-text-container {
+    display: block;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+div.summary-birth-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p.summary-birth-text {
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0);
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    float: left;
+    padding-inline-start: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.club-summary-mission-container {
+    margin-top: 45px;
+    margin-bottom: 15px;
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+p.club-summary-mission {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: 3px solid white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.summary-mission-text-container {
+    display: block;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+div.summary-mission-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p.summary-mission-text {
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0);
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    float: left;
+    padding-inline-start: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.club-summary-join-container {
+    margin-top: 45px;
+    margin-bottom: 15px;
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+p.club-summary-join {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: 3px solid white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.summary-join-text-container {
+    display: block;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+div.summary-join-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p.summary-join-text {
     color: white;
     text-shadow: 2px 2px 0px rgba(0, 0, 0);
     font-size: 22px;
@@ -220,12 +364,27 @@ p.summary-sustainability-text {
         padding-right: 10px;
     }
 
-    div.summary-accomplish-text-container {
+    div.summary-spark-text-container {
         padding-left: 10px;
         padding-right: 10px;
     }
 
-    div.summary-sustainability-text-container {
+    div.summary-change-text-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    div.summary-birth-text-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    div.summary-mission-text-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    div.summary-join-text-container {
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -236,11 +395,23 @@ p.summary-sustainability-text {
         font-size: 18px;
     }
 
-    p.summary-accomplish-text {
+    p.summary-spark-text {
         font-size: 18px;
     }
 
-    p.summary-sustainability-text {
+    p.summary-change-text {
+        font-size: 18px;
+    }
+
+    p.summary-birth-text {
+        font-size: 18px;
+    }
+
+    p.summary-mission-text {
+        font-size: 18px;
+    }
+
+    p.summary-join-text {
         font-size: 18px;
     }
 }
@@ -254,27 +425,63 @@ p.summary-sustainability-text {
         font-size: 16px;
     }
 
-    p.club-summary-accomplish {
+    p.club-summary-spark {
         font-size: 27px;
     }
 
-    p.summary-accomplish-text {
+    p.summary-spark-text {
         font-size: 16px;
     }
 
-    p.club-summary-sustainability {
+    p.club-summary-change {
         font-size: 27px;
     }
 
-    p.summary-sustainability-text {
+    p.summary-change-text {
         font-size: 16px;
     }
 
-    div.club-summary-accomplish-container {
+    p.club-summary-birth {
+        font-size: 27px;
+    }
+
+    p.summary-birth-text {
+        font-size: 16px;
+    }
+
+    p.club-summary-mission {
+        font-size: 27px;
+    }
+
+    p.summary-mission-text {
+        font-size: 16px;
+    }
+
+    p.club-summary-join {
+        font-size: 27px;
+    }
+
+    p.summary-join-text {
+        font-size: 16px;
+    }
+
+    div.club-summary-spark-container {
         margin-top: 30px;
     }
 
-    div.club-summary-sustainability-container {
+    div.club-summary-change-container {
+        margin-top: 30px;
+    }
+
+    div.club-summary-birth-container {
+        margin-top: 30px;
+    }
+
+    div.club-summary-mission-container {
+        margin-top: 30px;
+    }
+
+    div.club-summary-join-container {
         margin-top: 30px;
     }
 }
@@ -288,20 +495,44 @@ p.summary-sustainability-text {
         font-size: 14px;
     }
 
-    p.club-summary-accomplish {
+    p.club-summary-spark {
         font-size: 22px;
         text-align: center;
     }
 
-    p.summary-accomplish-text {
+    p.summary-spark-text {
         font-size: 14px;
     }
 
-    p.club-summary-sustainability {
+    p.club-summary-change {
         font-size: 25px;
     }
 
-    p.summary-sustainability-text {
+    p.summary-change-text {
+        font-size: 14px;
+    }
+
+    p.club-summary-birth {
+        font-size: 25px;
+    }
+
+    p.summary-birth-text {
+        font-size: 14px;
+    }
+
+    p.club-summary-mission {
+        font-size: 25px;
+    }
+
+    p.summary-mission-text {
+        font-size: 14px;
+    }
+
+    p.club-summary-join {
+        font-size: 25px;
+    }
+
+    p.summary-join-text {
         font-size: 14px;
     }
 }
